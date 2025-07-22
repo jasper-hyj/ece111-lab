@@ -1,0 +1,11 @@
+|fulladder_gate
+a => x0.IN0
+a => a0.IN0
+b => x0.IN1
+b => a0.IN1
+cin => a1.IN1
+cin => x1.IN1
+sum <= x1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= r0.DB_MAX_OUTPUT_PORT_TYPE
+
+

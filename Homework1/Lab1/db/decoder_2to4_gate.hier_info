@@ -1,0 +1,15 @@
+|decoder_2to4_gate
+sel[0] => g2.IN0
+sel[0] => g3.IN0
+sel[0] => g0.IN0
+sel[0] => g1.IN0
+sel[1] => g1.IN1
+sel[1] => g3.IN1
+sel[1] => g0.IN1
+sel[1] => g2.IN1
+out[0] <= g0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= g1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= g2.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= g3.DB_MAX_OUTPUT_PORT_TYPE
+
+

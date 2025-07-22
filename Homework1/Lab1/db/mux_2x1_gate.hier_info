@@ -1,0 +1,8 @@
+|mux_2x1_gate
+in[0] => G2.IN0
+in[1] => G3.IN0
+sel => G3.IN1
+sel => G2.IN1
+out <= G4.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,361 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vbehavorial_decoder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1752548503
+!i10b 1
+!s100 NSWmi?inHZTXm]Y[>knF73
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9KSJ=ioGV2bIF`B:3GmQd1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1
+w1752538589
+Z4 8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_behavioral.sv
+Z5 FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_behavioral.sv
+!i122 0
+Z6 L0 2 18
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1752548503.000000
+Z8 !s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_behavioral.sv|
+Z9 !s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_behavioral.sv|
+!i113 1
+Z10 o-work work -sv
+Z11 tCvgOpt 0
+vdecoder
+R0
+!s110 1752549171
+!i10b 1
+!s100 EdX3`2GBh;^KjI@cX=ASA2
+R1
+I=AXbPbekj02K05kSMWa1;1
+R2
+S1
+R3
+Z12 w1752103323
+Z13 8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_gate.sv
+Z14 FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_gate.sv
+!i122 14
+Z15 L0 2 12
+R7
+r1
+!s85 0
+31
+!s108 1752549171.000000
+Z16 !s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_gate.sv|
+Z17 !s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_gate.sv|
+!i113 1
+R10
+R11
+vdecoder_2to4_behavioral
+R0
+Z18 !s110 1752550978
+!i10b 1
+!s100 elSUQj4;mV79QVJ=BkUJC1
+R1
+IFXNA88zcNiVo@Dglg9[M>3
+R2
+S1
+R3
+w1752548733
+R4
+R5
+!i122 26
+R6
+R7
+r1
+!s85 0
+31
+Z19 !s108 1752550978.000000
+R8
+R9
+!i113 1
+R10
+R11
+vdecoder_2to4_dataflow
+R0
+R18
+!i10b 1
+!s100 fjQ5jeh6RWm8H7nI9h`;X1
+R1
+I=R1Um`^`2z=R7<Rl0neSN0
+R2
+S1
+R3
+w1752549528
+8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_dataflow.sv
+FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_dataflow.sv
+!i122 27
+L0 2 10
+R7
+r1
+!s85 0
+31
+R19
+!s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_dataflow.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_dataflow.sv|
+!i113 1
+R10
+R11
+vdecoder_2to4_gate
+R0
+Z20 !s110 1752550979
+!i10b 1
+!s100 iWKc6aO:dkgP1ca799_Ik3
+R1
+IV;@`J964WKgno9]3E>oMG1
+R2
+S1
+R3
+w1752549533
+R13
+R14
+!i122 28
+R15
+R7
+r1
+!s85 0
+31
+R19
+R16
+R17
+!i113 1
+R10
+R11
+vdecoder_2to4_testbench
+R0
+R20
+!i10b 1
+!s100 AnC`U`NSl3o0o:<39fIK_2
+R1
+I6CPFFl2QY36dkf6fO_Nzo3
+R2
+S1
+R3
+w1752549541
+8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_testbench.sv
+FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_testbench.sv
+!i122 29
+L0 3 28
+R7
+r1
+!s85 0
+31
+Z21 !s108 1752550979.000000
+!s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/decoder_2to4_testbench.sv|
+!i113 1
+R10
+R11
+vfulladder
+R0
+Z22 !s110 1752550980
+!i10b 1
+!s100 24L[YWmHXoOF<]@IS[HfY2
+R1
+IUl;3`fJhe>4AgHEUUQP653
+R2
+S1
+R3
+R12
+8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_gate.sv
+FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_gate.sv
+!i122 32
+L0 2 11
+R7
+r1
+!s85 0
+31
+!s108 1752550980.000000
+!s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_gate.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_gate.sv|
+!i113 1
+R10
+R11
+vfulladder_behavioral
+R0
+R22
+!i10b 1
+!s100 HR`=YMP35KR5OM0jEgFh92
+R1
+I7Nl_G5i4ka3_UP;gfagGZ2
+R2
+S1
+R3
+Z23 w1752550549
+8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_behavioral.sv
+FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_behavioral.sv
+!i122 30
+L0 2 6
+R7
+r1
+!s85 0
+31
+R21
+!s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_behavioral.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_behavioral.sv|
+!i113 1
+R10
+R11
+vfulladder_testbench
+R0
+!s110 1752553004
+!i10b 1
+!s100 nVWS2i;l[2imV73_mJF^k0
+R1
+IkF_J=o7kYH8L88?lhC8Ue0
+R2
+S1
+R3
+w1752552998
+8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_testbench.sv
+FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_testbench.sv
+!i122 38
+L0 3 59
+R7
+r1
+!s85 0
+31
+!s108 1752553003.000000
+!s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/fulladder_testbench.sv|
+!i113 1
+R10
+R11
+vmux_2x1
+R0
+!s110 1752549174
+!i10b 1
+!s100 RJ^7GP]=Y83VO6;E=bFOl2
+R1
+IXndRiBBL_8A92[1AO9[kB2
+R2
+S1
+R3
+R12
+Z24 8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_gate.sv
+Z25 FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_gate.sv
+!i122 22
+Z26 L0 3 11
+R7
+r1
+!s85 0
+31
+!s108 1752549174.000000
+Z27 !s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_gate.sv|
+Z28 !s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_gate.sv|
+!i113 1
+R10
+R11
+vmux_2x1_behavioral
+R0
+!s110 1752550981
+!i10b 1
+!s100 bZcRjTiPjPGEfSU:_W3ge0
+R1
+I4A6eI52kmW>4MheAHFfU80
+R2
+S1
+R3
+R23
+8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_behavioral.sv
+FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_behavioral.sv
+!i122 34
+L0 2 13
+R7
+r1
+!s85 0
+31
+!s108 1752550981.000000
+!s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_behavioral.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_behavioral.sv|
+!i113 1
+R10
+R11
+vmux_2x1_dataflow
+R0
+!s110 1752550984
+!i10b 1
+!s100 9HnND]_cQTWSdz3RE5U=O0
+R1
+IdNMcUSflLf<le71S<cFAR1
+R2
+S1
+R3
+R23
+8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_dataflow.sv
+FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_dataflow.sv
+!i122 35
+L0 2 7
+R7
+r1
+!s85 0
+31
+!s108 1752550983.000000
+!s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_dataflow.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_dataflow.sv|
+!i113 1
+R10
+R11
+vmux_2x1_gate
+R0
+!s110 1752550990
+!i10b 1
+!s100 OjIYjzj[`=^_AKb`:AS=Z0
+R1
+Iil4>N^bET2M9>J=_fake@1
+R2
+S1
+R3
+w1752550563
+R24
+R25
+!i122 36
+R26
+R7
+r1
+!s85 0
+31
+!s108 1752550990.000000
+R27
+R28
+!i113 1
+R10
+R11
+vmux_2x1_testbench
+R0
+!s110 1752550995
+!i10b 1
+!s100 3cMhViCOhidSYXUGGVJT93
+R1
+Id9ZgiNl1<Xo]2TRD<@`ZI1
+R2
+S1
+R3
+w1752550933
+8U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_testbench.sv
+FU:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_testbench.sv
+!i122 37
+L0 3 48
+R7
+r1
+!s85 0
+31
+!s108 1752550995.000000
+!s107 U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|U:/My Drive/2025 - C Summer Quarter/ECE 111/Homework1/Lab1/mux_2x1_testbench.sv|
+!i113 1
+R10
+R11

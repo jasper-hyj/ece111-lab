@@ -1,0 +1,299 @@
+# Compile of decoder_2to4_behavioral.sv was successful.
+# Compile of decoder_2to4_dataflow.sv was successful.
+# Compile of decoder_2to4_gate.sv was successful.
+# Compile of decoder_2to4_testbench.sv was successful.
+# Compile of fulladder_behavioral.sv was successful.
+# Compile of fulladder_dataflow.sv was successful.
+# Compile of fulladder_gate.sv was successful.
+# Compile of fulladder_testbench.sv was successful.
+# Compile of mux_2x1_behavioral.sv was successful.
+# Compile of mux_2x1_dataflow.sv was successful.
+# Compile of mux_2x1_gate.sv was successful.
+# Compile of mux_2x1_testbench.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of decoder_2to4_behavioral.sv was successful.
+# Compile of decoder_2to4_dataflow.sv was successful.
+# Compile of decoder_2to4_gate.sv was successful.
+# Compile of decoder_2to4_testbench.sv was successful.
+# Compile of fulladder_behavioral.sv was successful.
+# Compile of fulladder_dataflow.sv was successful.
+# Compile of fulladder_gate.sv was successful.
+# Compile of fulladder_testbench.sv was successful.
+# Compile of mux_2x1_behavioral.sv was successful.
+# Compile of mux_2x1_dataflow.sv was successful.
+# Compile of mux_2x1_gate.sv was successful.
+# Compile of mux_2x1_testbench.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of decoder_2to4_testbench.sv was successful.
+vsim -gui work.decoder_2to4_testbench
+# vsim -gui work.decoder_2to4_testbench 
+# Start time: 20:13:26 on Jul 14,2025
+# Loading sv_std.std
+# Loading work.decoder_2to4_testbench
+# Loading work.decoder
+add wave -position end  sim:/decoder_2to4_testbench/decoder_2to4_behavioral/sel
+add wave -position end  sim:/decoder_2to4_testbench/decoder_2to4_behavioral/out
+# Load canceled
+run -all
+#  time=0,  sel=00   out=0001
+# 
+#  time=150,  sel=10   out=0010
+# 
+#  time=200,  sel=01   out=0100
+# 
+#  time=250,  sel=11   out=1000
+# 
+run 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+#  time=0,  sel=00   out=0001
+# 
+run -all
+#  time=150,  sel=10   out=0010
+# 
+#  time=200,  sel=01   out=0100
+# 
+#  time=250,  sel=11   out=1000
+# 
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+#  time=0,  sel=00   out=0001
+# 
+#  time=150,  sel=10   out=0010
+# 
+#  time=200,  sel=01   out=0100
+# 
+#  time=250,  sel=11   out=1000
+# 
+clear
+# invalid command name "clear"
+clr
+# invalid command name "clr"
+vsim -gui work.decoder_2to4_testbench
+# End time: 20:17:33 on Jul 14,2025, Elapsed time: 0:04:07
+# Errors: 0, Warnings: 1
+# vsim -gui work.decoder_2to4_testbench 
+# Start time: 20:17:33 on Jul 14,2025
+# Loading sv_std.std
+# Loading work.decoder_2to4_testbench
+# Loading work.decoder
+run -all
+#  time=0,  sel=00   out=0001
+# 
+#  time=150,  sel=10   out=0010
+# 
+#  time=200,  sel=01   out=0100
+# 
+#  time=250,  sel=11   out=1000
+# 
+# Load canceled
+vsim -gui work.decoder_2to4_testbench
+# End time: 20:19:11 on Jul 14,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 1
+# vsim -gui work.decoder_2to4_testbench 
+# Start time: 20:19:11 on Jul 14,2025
+# Loading sv_std.std
+# Loading work.decoder_2to4_testbench
+# Loading work.decoder
+run -all
+#  time=0,  sel=00   out=0001
+# 
+#  time=150,  sel=10   out=0010
+# 
+#  time=200,  sel=01   out=0100
+# 
+#  time=250,  sel=11   out=1000
+# 
+add wave -position end  sim:/decoder_2to4_testbench/tb_sel
+add wave -position end  sim:/decoder_2to4_testbench/tb_out
+restart -f
+vsim -gui work.decoder_2to4_testbench
+# End time: 20:19:43 on Jul 14,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1
+# vsim -gui work.decoder_2to4_testbench 
+# Start time: 20:19:43 on Jul 14,2025
+# Loading sv_std.std
+# Loading work.decoder_2to4_testbench
+# Loading work.decoder
+add wave -position end  sim:/decoder_2to4_testbench/tb_sel
+add wave -position end  sim:/decoder_2to4_testbench/tb_out
+run -all
+#  time=0,  sel=00   out=0001
+# 
+#  time=150,  sel=10   out=0010
+# 
+#  time=200,  sel=01   out=0100
+# 
+#  time=250,  sel=11   out=1000
+# 
+run
+vsim -gui work.mux_2x1_testbench
+# End time: 20:42:21 on Jul 14,2025, Elapsed time: 0:22:38
+# Errors: 0, Warnings: 1
+# vsim -gui work.mux_2x1_testbench 
+# Start time: 20:42:21 on Jul 14,2025
+# Loading sv_std.std
+# Loading work.mux_2x1_testbench
+# Loading work.mux_2x1
+run
+#  time=0,  in=00  sel=0  out=x
+# 
+#  time=2,  in=00  sel=0  out=0
+# 
+vsim -gui work.mux_2x1_testbench
+# End time: 20:42:46 on Jul 14,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1
+# vsim -gui work.mux_2x1_testbench 
+# Start time: 20:42:46 on Jul 14,2025
+# Loading sv_std.std
+# Loading work.mux_2x1_testbench
+# Loading work.mux_2x1
+# Compile of decoder_2to4_testbench.sv was successful.
+# Compile of decoder_2to4_behavioral.sv was successful.
+# Compile of decoder_2to4_dataflow.sv was successful.
+# Compile of decoder_2to4_gate.sv was successful.
+# Compile of decoder_2to4_testbench.sv was successful.
+# Compile of fulladder_behavioral.sv was successful.
+# Compile of fulladder_dataflow.sv was successful.
+# Compile of fulladder_gate.sv was successful.
+# Compile of fulladder_testbench.sv was successful.
+# Compile of mux_2x1_behavioral.sv was successful.
+# Compile of mux_2x1_dataflow.sv was successful.
+vsim -gui work.mux_2x1_testbench
+# End time: 20:43:11 on Jul 14,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1
+# vsim -gui work.mux_2x1_testbench 
+# Start time: 20:43:11 on Jul 14,2025
+# Loading sv_std.std
+# Loading work.mux_2x1_testbench
+# Loading work.mux_2x1
+# Compile of mux_2x1_gate.sv was successful.
+# Compile of mux_2x1_testbench.sv was successful.
+# 12 compiles, 0 failed with no errors.
+run -all
+#  time=0,  in=00  sel=0  out=x
+# 
+#  time=2,  in=00  sel=0  out=0
+# 
+#  time=150,  in=01  sel=0  out=0
+# 
+#  time=152,  in=01  sel=0  out=1
+# 
+#  time=200,  in=10  sel=0  out=1
+# 
+#  time=202,  in=10  sel=0  out=0
+# 
+#  time=250,  in=00  sel=1  out=0
+# 
+#  time=300,  in=01  sel=1  out=0
+# 
+#  time=350,  in=10  sel=1  out=0
+# 
+#  time=352,  in=10  sel=1  out=1
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mux_2x1_testbench
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+#  time=0,  in=00  sel=0  out=x
+# 
+#  time=2,  in=00  sel=0  out=0
+# 
+#  time=150,  in=01  sel=0  out=0
+# 
+#  time=152,  in=01  sel=0  out=1
+# 
+#  time=200,  in=10  sel=0  out=1
+# 
+#  time=202,  in=10  sel=0  out=0
+# 
+#  time=250,  in=00  sel=1  out=0
+# 
+#  time=300,  in=01  sel=1  out=0
+# 
+#  time=350,  in=10  sel=1  out=0
+# 
+#  time=352,  in=10  sel=1  out=1
+# 
+add wave -position end  sim:/mux_2x1_testbench/tb_in
+add wave -position end  sim:/mux_2x1_testbench/tb_sel
+add wave -position end  sim:/mux_2x1_testbench/tb_out
+restart -f
+vsim -gui work.mux_2x1_testbench
+# End time: 20:46:27 on Jul 14,2025, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 1
+# vsim -gui work.mux_2x1_testbench 
+# Start time: 20:46:27 on Jul 14,2025
+# Loading sv_std.std
+# Loading work.mux_2x1_testbench
+# Loading work.mux_2x1
+add wave -position end  sim:/mux_2x1_testbench/tb_in
+add wave -position end  sim:/mux_2x1_testbench/tb_sel
+add wave -position end  sim:/mux_2x1_testbench/tb_out
+run -continue
+run -all
+#  time=0,  in=00  sel=0  out=x
+# 
+#  time=2,  in=00  sel=0  out=0
+# 
+#  time=150,  in=01  sel=0  out=0
+# 
+#  time=152,  in=01  sel=0  out=1
+# 
+#  time=200,  in=10  sel=0  out=1
+# 
+#  time=202,  in=10  sel=0  out=0
+# 
+#  time=250,  in=00  sel=1  out=0
+# 
+#  time=300,  in=01  sel=1  out=0
+# 
+#  time=350,  in=10  sel=1  out=0
+# 
+#  time=352,  in=10  sel=1  out=1
+# 
+run
+# Compile of fulladder_testbench.sv was successful.
+vsim -gui work.fulladder_testbench
+# End time: 21:16:52 on Jul 14,2025, Elapsed time: 0:30:25
+# Errors: 0, Warnings: 2
+# vsim -gui work.fulladder_testbench 
+# Start time: 21:16:52 on Jul 14,2025
+# Loading sv_std.std
+# Loading work.fulladder_testbench
+# Loading work.fulladder
+add wave -position end  sim:/fulladder_testbench/in0
+add wave -position end  sim:/fulladder_testbench/in1
+add wave -position end  sim:/fulladder_testbench/carryin
+add wave -position end  sim:/fulladder_testbench/add
+add wave -position end  sim:/fulladder_testbench/carryout
+run -all
+#  time=0   a=0   b=0   c=0   sum=0   cout=0
+# 
+#  time=150   a=1   b=0   c=0   sum=1   cout=0
+# 
+#  time=200   a=0   b=1   c=0   sum=1   cout=0
+# 
+#  time=250   a=1   b=1   c=0   sum=0   cout=1
+# 
+#  time=300   a=0   b=0   c=1   sum=1   cout=0
+# 
+#  time=350   a=1   b=0   c=1   sum=0   cout=1
+# 
+#  time=400   a=0   b=1   c=1   sum=0   cout=1
+# 
+#  time=450   a=1   b=1   c=1   sum=1   cout=1
+# 
+run
+# End time: 21:32:45 on Jul 14,2025, Elapsed time: 0:15:53
+# Errors: 0, Warnings: 1

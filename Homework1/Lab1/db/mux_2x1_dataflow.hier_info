@@ -1,0 +1,8 @@
+|mux_2x1_dataflow
+in[0] => out.IN0
+in[1] => out.IN0
+sel => out.IN1
+sel => out.IN1
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
