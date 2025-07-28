@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "count[0]",
+					"strict" : false
+				},
+				{
+					"name" : "count[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count[3]",
+					"strict" : false
+				},
+				{
+					"name" : "preset",
+					"strict" : false
+				},
+				{
+					"name" : "load_cnt[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "load_cnt[1]",
+					"strict" : false
+				},
+				{
+					"name" : "load_cnt[2]",
+					"strict" : false
+				},
+				{
+					"name" : "load_cnt[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
