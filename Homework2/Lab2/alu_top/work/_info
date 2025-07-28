@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,78 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/20.1/modelsim_ase/win32aloem
+valu
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1753152383
+!i10b 1
+!s100 7>Bb2XbMJl<Q_Nd3DJ<?a1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAhWl4DHfI_boASTcbJ;=e1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top
+w1753151583
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu.sv
+!i122 0
+L0 2 33
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1753152383.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+valu_top
+R0
+R1
+!i10b 1
+!s100 B[F9;beM;J3k]jO45>;HT3
+R2
+I2BR4K`eBNMEJl]2MH:PHV0
+R3
+S1
+R4
+w1753151639
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top.sv
+!i122 1
+L0 2 29
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top.sv|
+!i113 1
+R7
+R8
+valu_top_testbench
+R0
+!s110 1753152384
+!i10b 1
+!s100 Nkl01z``dmZj?CO8a_<<j0
+R2
+I^[W223KVfMfE3nVX2h_gi1
+R3
+S1
+R4
+w1753050896
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top_testbench.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top_testbench.sv
+!i122 2
+L0 3 126
+R5
+r1
+!s85 0
+31
+!s108 1753152384.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top_testbench.sv|
+!i113 1
+R7
+R8

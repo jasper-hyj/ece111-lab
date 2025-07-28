@@ -1,0 +1,59 @@
+|up_down_counter
+clk => clk.IN2
+clear => clear.IN2
+select => select.IN1
+count_value[0] <= mux_2x1:mux_2x1.out
+count_value[1] <= mux_2x1:mux_2x1.out
+count_value[2] <= mux_2x1:mux_2x1.out
+count_value[3] <= mux_2x1:mux_2x1.out
+
+
+|up_down_counter|up_counter:up_counter
+clk => cnt_value[0].CLK
+clk => cnt_value[1].CLK
+clk => cnt_value[2].CLK
+clk => cnt_value[3].CLK
+clear => cnt_value[0].ACLR
+clear => cnt_value[1].ACLR
+clear => cnt_value[2].ACLR
+clear => cnt_value[3].ACLR
+count[0] <= cnt_value[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= cnt_value[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= cnt_value[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= cnt_value[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|up_down_counter|down_counter:down_counter
+clk => cnt_value[0].CLK
+clk => cnt_value[1].CLK
+clk => cnt_value[2].CLK
+clk => cnt_value[3].CLK
+clear => cnt_value[0].PRESET
+clear => cnt_value[1].PRESET
+clear => cnt_value[2].PRESET
+clear => cnt_value[3].PRESET
+count[0] <= cnt_value[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= cnt_value[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= cnt_value[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= cnt_value[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|up_down_counter|mux_2x1:mux_2x1
+in0[0] => out.DATAB
+in0[1] => out.DATAB
+in0[2] => out.DATAB
+in0[3] => out.DATAB
+in1[0] => out.DATAA
+in1[1] => out.DATAA
+in1[2] => out.DATAA
+in1[3] => out.DATAA
+sel => out.OUTPUTSELECT
+sel => out.OUTPUTSELECT
+sel => out.OUTPUTSELECT
+sel => out.OUTPUTSELECT
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

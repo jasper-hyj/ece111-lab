@@ -1,0 +1,409 @@
+# Compile of down_counter.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of up_counter.sv was successful.
+# Compile of up_down_counter.sv was successful.
+# Compile of up_down_counter_testbench.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.up_down_counter_testbench
+# vsim -gui work.up_down_counter_testbench 
+# Start time: 20:17:03 on Jul 21,2025
+# Loading sv_std.std
+# Loading work.up_down_counter_testbench
+# Loading work.up_down_counter
+# Loading work.up_counter
+# Loading work.down_counter
+# Loading work.mux_2x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'in0'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /up_down_counter_testbench/design_instance/mux_2x1 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'in1'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv(5).
+#    Time: 0 ns  Iteration: 0  Instance: /up_down_counter_testbench/design_instance/mux_2x1 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'out'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv(7).
+#    Time: 0 ns  Iteration: 0  Instance: /up_down_counter_testbench/design_instance/mux_2x1 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv Line: 31
+add wave -position end  sim:/up_down_counter_testbench/design_instance/clk
+add wave -position end  sim:/up_down_counter_testbench/design_instance/clear
+add wave -position end  sim:/up_down_counter_testbench/design_instance/select
+add wave -position end  sim:/up_down_counter_testbench/design_instance/count_value
+run 20ns
+#  time=0,  clear=1  clk=1  count= 0
+#  time=10,  clear=1  clk=0  count= 0
+run 20ns
+#  time=20,  clear=0  clk=1  count= 1
+#  time=30,  clear=0  clk=0  count= 1
+run 20ns
+#  time=40,  clear=0  clk=1  count= 0
+#  time=50,  clear=0  clk=0  count= 0
+run 20ns
+#  time=60,  clear=0  clk=1  count= 1
+#  time=70,  clear=0  clk=0  count= 1
+run 20ns
+#  time=80,  clear=0  clk=1  count= 0
+#  time=90,  clear=0  clk=0  count= 0
+run 20ns
+#  time=100,  clear=0  clk=1  count= 1
+#  time=110,  clear=0  clk=0  count= 1
+run 20ns
+#  time=120,  clear=0  clk=1  count= 0
+#  time=130,  clear=0  clk=0  count= 0
+run 20ns
+#  time=140,  clear=0  clk=1  count= 1
+#  time=150,  clear=0  clk=0  count= 1
+run 20ns
+#  time=160,  clear=0  clk=1  count= 0
+#  time=170,  clear=0  clk=0  count= 0
+run 20ns
+#  time=180,  clear=0  clk=1  count= 1
+#  time=190,  clear=0  clk=0  count= 1
+run 20ns
+#  time=200,  clear=0  clk=1  count= 0
+#  time=210,  clear=0  clk=0  count= 0
+run 20ns
+#  time=220,  clear=0  clk=1  count= 1
+#  time=230,  clear=0  clk=0  count= 1
+run 20ns
+#  time=240,  clear=0  clk=1  count= 0
+#  time=250,  clear=0  clk=0  count= 0
+run 20ns
+#  time=260,  clear=0  clk=1  count= 1
+#  time=270,  clear=0  clk=0  count= 1
+run -all
+#  time=280,  clear=0  clk=1  count= 0
+#  time=290,  clear=0  clk=0  count= 0
+#  time=300,  clear=0  clk=1  count= 1
+#  time=310,  clear=0  clk=0  count= 1
+#  time=320,  clear=0  clk=1  count= 0
+#  time=330,  clear=0  clk=0  count= 0
+#  time=340,  clear=1  clk=1  count= 1
+#  time=350,  clear=1  clk=0  count= 1
+#  time=360,  clear=0  clk=1  count= 0
+#  time=370,  clear=0  clk=0  count= 0
+#  time=380,  clear=0  clk=1  count= 1
+#  time=390,  clear=0  clk=0  count= 1
+#  time=400,  clear=0  clk=1  count= 0
+#  time=410,  clear=0  clk=0  count= 0
+#  time=420,  clear=0  clk=1  count= 1
+#  time=430,  clear=0  clk=0  count= 1
+#  time=440,  clear=0  clk=1  count= 0
+#  time=450,  clear=0  clk=0  count= 0
+#  time=460,  clear=0  clk=1  count= 1
+#  time=470,  clear=0  clk=0  count= 1
+#  time=480,  clear=0  clk=1  count= 0
+#  time=490,  clear=0  clk=0  count= 0
+#  time=500,  clear=0  clk=1  count= 1
+#  time=510,  clear=0  clk=0  count= 1
+#  time=520,  clear=0  clk=1  count= 0
+#  time=530,  clear=0  clk=0  count= 0
+#  time=540,  clear=0  clk=1  count= 1
+#  time=550,  clear=0  clk=0  count= 1
+#  time=560,  clear=0  clk=1  count= 0
+#  time=570,  clear=0  clk=0  count= 0
+#  time=580,  clear=0  clk=1  count= 1
+#  time=590,  clear=0  clk=0  count= 1
+#  time=600,  clear=0  clk=1  count= 0
+#  time=610,  clear=0  clk=0  count= 0
+#  time=620,  clear=0  clk=1  count= 1
+#  time=630,  clear=0  clk=0  count= 1
+#  time=640,  clear=0  clk=1  count= 0
+#  time=650,  clear=0  clk=0  count= 0
+#  time=660,  clear=0  clk=1  count= 1
+#  time=670,  clear=0  clk=0  count= 1
+#  time=680,  clear=1  clk=1  count= 0
+#  time=690,  clear=1  clk=0  count= 0
+#  time=700,  clear=1  clk=1  count= 0
+#  time=710,  clear=1  clk=0  count= 0
+#  time=720,  clear=1  clk=1  count= 0
+#  time=730,  clear=1  clk=0  count= 0
+#  time=740,  clear=1  clk=1  count= 0
+#  time=750,  clear=1  clk=0  count= 0
+#  time=760,  clear=1  clk=1  count= 0
+#  time=770,  clear=1  clk=0  count= 0
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv(42)
+#    Time: 780 ns  Iteration: 0  Instance: /up_down_counter_testbench
+# 1
+# Break in Module up_down_counter_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv line 42
+add wave -position end  sim:/up_down_counter_testbench/design_instance/up_counter/count
+add wave -position end  sim:/up_down_counter_testbench/design_instance/up_counter/cnt_value
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'in0'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /up_down_counter_testbench/design_instance/mux_2x1 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'in1'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv(5).
+#    Time: 0 ns  Iteration: 0  Instance: /up_down_counter_testbench/design_instance/mux_2x1 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'out'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv(7).
+#    Time: 0 ns  Iteration: 0  Instance: /up_down_counter_testbench/design_instance/mux_2x1 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv Line: 31
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+#  time=0,  clear=1  clk=1  count= 0
+#  time=10,  clear=1  clk=0  count= 0
+#  time=20,  clear=0  clk=1  count= 1
+#  time=30,  clear=0  clk=0  count= 1
+#  time=40,  clear=0  clk=1  count= 0
+#  time=50,  clear=0  clk=0  count= 0
+#  time=60,  clear=0  clk=1  count= 1
+#  time=70,  clear=0  clk=0  count= 1
+#  time=80,  clear=0  clk=1  count= 0
+#  time=90,  clear=0  clk=0  count= 0
+#  time=100,  clear=0  clk=1  count= 1
+#  time=110,  clear=0  clk=0  count= 1
+#  time=120,  clear=0  clk=1  count= 0
+#  time=130,  clear=0  clk=0  count= 0
+#  time=140,  clear=0  clk=1  count= 1
+#  time=150,  clear=0  clk=0  count= 1
+#  time=160,  clear=0  clk=1  count= 0
+#  time=170,  clear=0  clk=0  count= 0
+#  time=180,  clear=0  clk=1  count= 1
+#  time=190,  clear=0  clk=0  count= 1
+#  time=200,  clear=0  clk=1  count= 0
+#  time=210,  clear=0  clk=0  count= 0
+#  time=220,  clear=0  clk=1  count= 1
+#  time=230,  clear=0  clk=0  count= 1
+#  time=240,  clear=0  clk=1  count= 0
+#  time=250,  clear=0  clk=0  count= 0
+#  time=260,  clear=0  clk=1  count= 1
+#  time=270,  clear=0  clk=0  count= 1
+#  time=280,  clear=0  clk=1  count= 0
+#  time=290,  clear=0  clk=0  count= 0
+#  time=300,  clear=0  clk=1  count= 1
+#  time=310,  clear=0  clk=0  count= 1
+#  time=320,  clear=0  clk=1  count= 0
+#  time=330,  clear=0  clk=0  count= 0
+#  time=340,  clear=1  clk=1  count= 1
+#  time=350,  clear=1  clk=0  count= 1
+#  time=360,  clear=0  clk=1  count= 0
+#  time=370,  clear=0  clk=0  count= 0
+#  time=380,  clear=0  clk=1  count= 1
+#  time=390,  clear=0  clk=0  count= 1
+#  time=400,  clear=0  clk=1  count= 0
+#  time=410,  clear=0  clk=0  count= 0
+#  time=420,  clear=0  clk=1  count= 1
+#  time=430,  clear=0  clk=0  count= 1
+#  time=440,  clear=0  clk=1  count= 0
+#  time=450,  clear=0  clk=0  count= 0
+#  time=460,  clear=0  clk=1  count= 1
+#  time=470,  clear=0  clk=0  count= 1
+#  time=480,  clear=0  clk=1  count= 0
+#  time=490,  clear=0  clk=0  count= 0
+#  time=500,  clear=0  clk=1  count= 1
+#  time=510,  clear=0  clk=0  count= 1
+#  time=520,  clear=0  clk=1  count= 0
+#  time=530,  clear=0  clk=0  count= 0
+#  time=540,  clear=0  clk=1  count= 1
+#  time=550,  clear=0  clk=0  count= 1
+#  time=560,  clear=0  clk=1  count= 0
+#  time=570,  clear=0  clk=0  count= 0
+#  time=580,  clear=0  clk=1  count= 1
+#  time=590,  clear=0  clk=0  count= 1
+#  time=600,  clear=0  clk=1  count= 0
+#  time=610,  clear=0  clk=0  count= 0
+#  time=620,  clear=0  clk=1  count= 1
+#  time=630,  clear=0  clk=0  count= 1
+#  time=640,  clear=0  clk=1  count= 0
+#  time=650,  clear=0  clk=0  count= 0
+#  time=660,  clear=0  clk=1  count= 1
+#  time=670,  clear=0  clk=0  count= 1
+#  time=680,  clear=1  clk=1  count= 0
+#  time=690,  clear=1  clk=0  count= 0
+#  time=700,  clear=1  clk=1  count= 0
+#  time=710,  clear=1  clk=0  count= 0
+#  time=720,  clear=1  clk=1  count= 0
+#  time=730,  clear=1  clk=0  count= 0
+#  time=740,  clear=1  clk=1  count= 0
+#  time=750,  clear=1  clk=0  count= 0
+#  time=760,  clear=1  clk=1  count= 0
+#  time=770,  clear=1  clk=0  count= 0
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv(42)
+#    Time: 780 ns  Iteration: 0  Instance: /up_down_counter_testbench
+# 1
+# Break in Module up_down_counter_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv line 42
+add wave -position end  sim:/up_down_counter_testbench/design_instance/mux_2x1/WIDTH
+add wave -position end  sim:/up_down_counter_testbench/design_instance/mux_2x1/in0
+add wave -position end  sim:/up_down_counter_testbench/design_instance/mux_2x1/in1
+add wave -position end  sim:/up_down_counter_testbench/design_instance/mux_2x1/sel
+add wave -position end  sim:/up_down_counter_testbench/design_instance/mux_2x1/out
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'in0'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /up_down_counter_testbench/design_instance/mux_2x1 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'in1'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv(5).
+#    Time: 0 ns  Iteration: 0  Instance: /up_down_counter_testbench/design_instance/mux_2x1 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'out'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv(7).
+#    Time: 0 ns  Iteration: 0  Instance: /up_down_counter_testbench/design_instance/mux_2x1 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv Line: 31
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+#  time=0,  clear=1  clk=1  count= 0
+#  time=10,  clear=1  clk=0  count= 0
+#  time=20,  clear=0  clk=1  count= 1
+#  time=30,  clear=0  clk=0  count= 1
+#  time=40,  clear=0  clk=1  count= 0
+#  time=50,  clear=0  clk=0  count= 0
+#  time=60,  clear=0  clk=1  count= 1
+#  time=70,  clear=0  clk=0  count= 1
+#  time=80,  clear=0  clk=1  count= 0
+#  time=90,  clear=0  clk=0  count= 0
+#  time=100,  clear=0  clk=1  count= 1
+#  time=110,  clear=0  clk=0  count= 1
+#  time=120,  clear=0  clk=1  count= 0
+#  time=130,  clear=0  clk=0  count= 0
+#  time=140,  clear=0  clk=1  count= 1
+#  time=150,  clear=0  clk=0  count= 1
+#  time=160,  clear=0  clk=1  count= 0
+#  time=170,  clear=0  clk=0  count= 0
+#  time=180,  clear=0  clk=1  count= 1
+#  time=190,  clear=0  clk=0  count= 1
+#  time=200,  clear=0  clk=1  count= 0
+#  time=210,  clear=0  clk=0  count= 0
+#  time=220,  clear=0  clk=1  count= 1
+#  time=230,  clear=0  clk=0  count= 1
+#  time=240,  clear=0  clk=1  count= 0
+#  time=250,  clear=0  clk=0  count= 0
+#  time=260,  clear=0  clk=1  count= 1
+#  time=270,  clear=0  clk=0  count= 1
+#  time=280,  clear=0  clk=1  count= 0
+#  time=290,  clear=0  clk=0  count= 0
+#  time=300,  clear=0  clk=1  count= 1
+#  time=310,  clear=0  clk=0  count= 1
+#  time=320,  clear=0  clk=1  count= 0
+#  time=330,  clear=0  clk=0  count= 0
+#  time=340,  clear=1  clk=1  count= 1
+#  time=350,  clear=1  clk=0  count= 1
+#  time=360,  clear=0  clk=1  count= 0
+#  time=370,  clear=0  clk=0  count= 0
+#  time=380,  clear=0  clk=1  count= 1
+#  time=390,  clear=0  clk=0  count= 1
+#  time=400,  clear=0  clk=1  count= 0
+#  time=410,  clear=0  clk=0  count= 0
+#  time=420,  clear=0  clk=1  count= 1
+#  time=430,  clear=0  clk=0  count= 1
+#  time=440,  clear=0  clk=1  count= 0
+#  time=450,  clear=0  clk=0  count= 0
+#  time=460,  clear=0  clk=1  count= 1
+#  time=470,  clear=0  clk=0  count= 1
+#  time=480,  clear=0  clk=1  count= 0
+#  time=490,  clear=0  clk=0  count= 0
+#  time=500,  clear=0  clk=1  count= 1
+#  time=510,  clear=0  clk=0  count= 1
+#  time=520,  clear=0  clk=1  count= 0
+#  time=530,  clear=0  clk=0  count= 0
+#  time=540,  clear=0  clk=1  count= 1
+#  time=550,  clear=0  clk=0  count= 1
+#  time=560,  clear=0  clk=1  count= 0
+#  time=570,  clear=0  clk=0  count= 0
+#  time=580,  clear=0  clk=1  count= 1
+#  time=590,  clear=0  clk=0  count= 1
+#  time=600,  clear=0  clk=1  count= 0
+#  time=610,  clear=0  clk=0  count= 0
+#  time=620,  clear=0  clk=1  count= 1
+#  time=630,  clear=0  clk=0  count= 1
+#  time=640,  clear=0  clk=1  count= 0
+#  time=650,  clear=0  clk=0  count= 0
+#  time=660,  clear=0  clk=1  count= 1
+#  time=670,  clear=0  clk=0  count= 1
+#  time=680,  clear=1  clk=1  count= 0
+#  time=690,  clear=1  clk=0  count= 0
+#  time=700,  clear=1  clk=1  count= 0
+#  time=710,  clear=1  clk=0  count= 0
+#  time=720,  clear=1  clk=1  count= 0
+#  time=730,  clear=1  clk=0  count= 0
+#  time=740,  clear=1  clk=1  count= 0
+#  time=750,  clear=1  clk=0  count= 0
+#  time=760,  clear=1  clk=1  count= 0
+#  time=770,  clear=1  clk=0  count= 0
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv(42)
+#    Time: 780 ns  Iteration: 0  Instance: /up_down_counter_testbench
+# 1
+# Break in Module up_down_counter_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv line 42
+# Compile of mux_2x1.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mux_2x1
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+#  time=0,  clear=1  clk=1  count= 0
+#  time=10,  clear=1  clk=0  count= 0
+#  time=20,  clear=0  clk=1  count= 1
+#  time=30,  clear=0  clk=0  count= 1
+#  time=40,  clear=0  clk=1  count= 2
+#  time=50,  clear=0  clk=0  count= 2
+#  time=60,  clear=0  clk=1  count= 3
+#  time=70,  clear=0  clk=0  count= 3
+#  time=80,  clear=0  clk=1  count= 4
+#  time=90,  clear=0  clk=0  count= 4
+#  time=100,  clear=0  clk=1  count= 5
+#  time=110,  clear=0  clk=0  count= 5
+#  time=120,  clear=0  clk=1  count= 6
+#  time=130,  clear=0  clk=0  count= 6
+#  time=140,  clear=0  clk=1  count= 7
+#  time=150,  clear=0  clk=0  count= 7
+#  time=160,  clear=0  clk=1  count= 8
+#  time=170,  clear=0  clk=0  count= 8
+#  time=180,  clear=0  clk=1  count= 9
+#  time=190,  clear=0  clk=0  count= 9
+#  time=200,  clear=0  clk=1  count=10
+#  time=210,  clear=0  clk=0  count=10
+#  time=220,  clear=0  clk=1  count=11
+#  time=230,  clear=0  clk=0  count=11
+#  time=240,  clear=0  clk=1  count=12
+#  time=250,  clear=0  clk=0  count=12
+#  time=260,  clear=0  clk=1  count=13
+#  time=270,  clear=0  clk=0  count=13
+#  time=280,  clear=0  clk=1  count=14
+#  time=290,  clear=0  clk=0  count=14
+#  time=300,  clear=0  clk=1  count=15
+#  time=310,  clear=0  clk=0  count=15
+#  time=320,  clear=0  clk=1  count= 0
+#  time=330,  clear=0  clk=0  count= 0
+#  time=340,  clear=1  clk=1  count=15
+#  time=350,  clear=1  clk=0  count=15
+#  time=360,  clear=0  clk=1  count=14
+#  time=370,  clear=0  clk=0  count=14
+#  time=380,  clear=0  clk=1  count=13
+#  time=390,  clear=0  clk=0  count=13
+#  time=400,  clear=0  clk=1  count=12
+#  time=410,  clear=0  clk=0  count=12
+#  time=420,  clear=0  clk=1  count=11
+#  time=430,  clear=0  clk=0  count=11
+#  time=440,  clear=0  clk=1  count=10
+#  time=450,  clear=0  clk=0  count=10
+#  time=460,  clear=0  clk=1  count= 9
+#  time=470,  clear=0  clk=0  count= 9
+#  time=480,  clear=0  clk=1  count= 8
+#  time=490,  clear=0  clk=0  count= 8
+#  time=500,  clear=0  clk=1  count= 7
+#  time=510,  clear=0  clk=0  count= 7
+#  time=520,  clear=0  clk=1  count= 6
+#  time=530,  clear=0  clk=0  count= 6
+#  time=540,  clear=0  clk=1  count= 5
+#  time=550,  clear=0  clk=0  count= 5
+#  time=560,  clear=0  clk=1  count= 4
+#  time=570,  clear=0  clk=0  count= 4
+#  time=580,  clear=0  clk=1  count= 3
+#  time=590,  clear=0  clk=0  count= 3
+#  time=600,  clear=0  clk=1  count= 2
+#  time=610,  clear=0  clk=0  count= 2
+#  time=620,  clear=0  clk=1  count= 1
+#  time=630,  clear=0  clk=0  count= 1
+#  time=640,  clear=0  clk=1  count= 0
+#  time=650,  clear=0  clk=0  count= 0
+#  time=660,  clear=0  clk=1  count=15
+#  time=670,  clear=0  clk=0  count=15
+#  time=680,  clear=1  clk=1  count= 0
+#  time=690,  clear=1  clk=0  count= 0
+#  time=700,  clear=1  clk=1  count= 0
+#  time=710,  clear=1  clk=0  count= 0
+#  time=720,  clear=1  clk=1  count= 0
+#  time=730,  clear=1  clk=0  count= 0
+#  time=740,  clear=1  clk=1  count= 0
+#  time=750,  clear=1  clk=0  count= 0
+#  time=760,  clear=1  clk=1  count= 0
+#  time=770,  clear=1  clk=0  count= 0
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv(42)
+#    Time: 780 ns  Iteration: 0  Instance: /up_down_counter_testbench
+# 1
+# Break in Module up_down_counter_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv line 42
+# End time: 20:27:12 on Jul 21,2025, Elapsed time: 0:10:09
+# Errors: 0, Warnings: 1

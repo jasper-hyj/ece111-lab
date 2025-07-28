@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top
+vdown_counter
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1753154212
+!i10b 1
+!s100 GnUznQEC_A:L^KJ?8<jjI0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1T1]QWm:C[46Z^<hGH?R=3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter
+w1753153857
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/down_counter.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/down_counter.sv
+!i122 0
+Z5 L0 2 24
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1753154211.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/down_counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/down_counter.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vmux_2x1
+R0
+!s110 1753154493
+!i10b 1
+!s100 fj>MH<J_EgSN10XLTeiF?3
+R2
+IlOmY3>LJLZgV@aB5mgA2m0
+R3
+S1
+R4
+w1753154489
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv
+!i122 5
+L0 2 17
+R6
+r1
+!s85 0
+31
+!s108 1753154493.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv|
+!i113 1
+R7
+R8
+vup_counter
+R0
+R1
+!i10b 1
+!s100 1LIUdcfWRzkciVF?^D:bX0
+R2
+IiX6XQjFY;]D_9jzalhYAc2
+R3
+S1
+R4
+Z9 w1753050896
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_counter.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_counter.sv
+!i122 2
+R5
+R6
+r1
+!s85 0
+31
+Z10 !s108 1753154212.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_counter.sv|
+!i113 1
+R7
+R8
+vup_down_counter
+R0
+R1
+!i10b 1
+!s100 ;ZZ>E4ib24[]`78cK@AOa1
+R2
+Icc_J?VXzY5AnaJ6lYRg_d0
+R3
+S1
+R4
+w1753154103
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv
+!i122 3
+L0 2 37
+R6
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv|
+!i113 1
+R7
+R8
+vup_down_counter_testbench
+R0
+R1
+!i10b 1
+!s100 hf@JhlJd=7:@DJ?dSLiJg3
+R2
+IT6B6US1=T@Xg^Z=e5fTZ[3
+R3
+S1
+R4
+R9
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv
+!i122 4
+L0 3 52
+R6
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv|
+!i113 1
+R7
+R8

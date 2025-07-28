@@ -1,0 +1,22 @@
+{C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top_testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_top_testbench
+
+Top level modules:
+	alu_top_testbench
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/alu_top/alu_top.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_top
+
+Top level modules:
+	alu_top
+
+} {} {}}

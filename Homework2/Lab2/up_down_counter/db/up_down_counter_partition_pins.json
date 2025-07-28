@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "count_value[0]",
+					"strict" : false
+				},
+				{
+					"name" : "count_value[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count_value[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count_value[3]",
+					"strict" : false
+				},
+				{
+					"name" : "select",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

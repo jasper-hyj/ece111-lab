@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "operand1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "operand1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "select[3]",
+					"strict" : false
+				},
+				{
+					"name" : "select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "operand2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "operand2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "operand2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "operand2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "operand1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "select[1]",
+					"strict" : false
+				},
+				{
+					"name" : "select[2]",
+					"strict" : false
+				},
+				{
+					"name" : "operand1[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

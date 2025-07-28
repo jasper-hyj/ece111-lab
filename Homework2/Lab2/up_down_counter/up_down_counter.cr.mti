@@ -1,0 +1,36 @@
+{C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module up_down_counter
+
+Top level modules:
+	up_down_counter
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/down_counter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/down_counter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module down_counter
+
+Top level modules:
+	down_counter
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/mux_2x1.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_2x1
+
+Top level modules:
+	mux_2x1
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_counter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_counter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module up_counter
+
+Top level modules:
+	up_counter
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework2/Lab2/up_down_counter/up_down_counter_testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module up_down_counter_testbench
+
+Top level modules:
+	up_down_counter_testbench
+
+} {} {}}

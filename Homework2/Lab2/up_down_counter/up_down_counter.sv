@@ -13,18 +13,26 @@ module up_down_counter    // Module start declaration
  logic[WIDTH-1:0] up_count_value, down_count_value; 
   
  // Student to add code to instantiate up counter
-
- 
-
+   up_counter #(.WIDTH(WIDTH)) up_counter(
+      .clk(clk),
+      .clear(clear),
+      .count(up_count_value)
+   );
 
  // Student to add code to instantiate down counter
-
-
-
+   down_counter #(.WIDTH(WIDTH)) down_counter(
+      .clk(clk),
+      .clear(clear),
+      .count(down_count_value)
+   );
 
  // Student to add acode to instantiate 2-to-1 multiplexer
 
-
-
+   mux_2x1 #(.WIDTH(WIDTH)) mux_2x1(
+      .in0(up_count_value),
+      .in1(down_count_value),
+      .sel(select),
+      .out(count_value)
+   );
 
 endmodule: up_down_counter  // Module end declaration
