@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/johnson_counter
+vuniversal_shift_register
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1753736903
+!i10b 1
+!s100 ?UlJnEocU4Tg[9TDiDYl^0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOk68lQAYM2T7:Uk_^R;Bk1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register
+w1753736838
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register.sv
+!i122 0
+L0 2 77
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1753736903.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vuniversal_shift_register_testbench
+R0
+R1
+!i10b 1
+!s100 Uk4GPP<o3ef@70<liSB7a3
+R2
+I>^^j1OL6mlL5oF9GUPJ:82
+R3
+S1
+R4
+w1753727090
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv
+!i122 1
+L0 2 181
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv|
+!i113 1
+R7
+R8

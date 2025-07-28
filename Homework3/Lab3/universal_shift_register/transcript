@@ -1,0 +1,117 @@
+# Compile of universal_shift_register.sv was successful.
+# Compile of universal_shift_register_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.universal_shift_register_testbench
+# vsim -gui work.universal_shift_register_testbench 
+# Start time: 14:08:34 on Jul 28,2025
+# Loading sv_std.std
+# Loading work.universal_shift_register_testbench
+# Loading work.universal_shift_register
+add wave -position end  sim:/universal_shift_register_testbench/dut/clk
+add wave -position end  sim:/universal_shift_register_testbench/dut/reset
+add wave -position end  sim:/universal_shift_register_testbench/dut/load
+add wave -position end  sim:/universal_shift_register_testbench/dut/sin
+add wave -position end  sim:/universal_shift_register_testbench/dut/shift_mode
+add wave -position end  sim:/universal_shift_register_testbench/dut/din
+add wave -position end  sim:/universal_shift_register_testbench/dut/dout
+add wave -position end  sim:/universal_shift_register_testbench/dut/sout
+add wave -position end  sim:/universal_shift_register_testbench/dut/shift_reg
+run -all
+#  time=0,  clk=1  reset=1  shift_mode=0, load=0, din= 0, dout= 0
+#  time=100000,  clk=0  reset=1  shift_mode=0, load=0, din= 0, dout= 0
+#  time=200000,  clk=1  reset=0  shift_mode=0, load=0, din= 0, dout= 0
+#  time=300000,  clk=0  reset=0  shift_mode=0, load=0, din= 0, dout= 0
+#  time=400000,  clk=1  reset=0  shift_mode=0, load=0, din= 9, dout= 9
+#  time=500000,  clk=0  reset=0  shift_mode=0, load=0, din= 9, dout= 9
+#  time=600000,  clk=1  reset=1  shift_mode=0, load=0, din= 9, dout= 0
+#  time=700000,  clk=0  reset=1  shift_mode=0, load=0, din= 9, dout= 0
+#  time=800000,  clk=1  reset=0  shift_mode=1, load=0, din= 9, dout= 3
+#  time=900000,  clk=0  reset=0  shift_mode=1, load=0, din= 9, dout= 3
+#  time=1000000,  clk=1  reset=0  shift_mode=1, load=0, din= 9, dout= 7
+#  time=1100000,  clk=0  reset=0  shift_mode=1, load=0, din= 9, dout= 7
+#  time=1200000,  clk=1  reset=0  shift_mode=1, load=0, din= 9, dout=14
+#  time=1300000,  clk=0  reset=0  shift_mode=1, load=0, din= 9, dout=14
+#  time=1400000,  clk=1  reset=0  shift_mode=1, load=0, din= 9, dout=13
+#  time=1500000,  clk=0  reset=0  shift_mode=1, load=0, din= 9, dout=13
+#  time=1600000,  clk=1  reset=1  shift_mode=1, load=0, din= 9, dout= 0
+#  time=1700000,  clk=0  reset=1  shift_mode=1, load=0, din= 9, dout= 0
+#  time=1800000,  clk=1  reset=0  shift_mode=2, load=0, din= 9, dout= 6
+#  time=1900000,  clk=0  reset=0  shift_mode=2, load=0, din= 9, dout= 6
+#  time=2000000,  clk=1  reset=0  shift_mode=2, load=0, din= 9, dout=11
+#  time=2100000,  clk=0  reset=0  shift_mode=2, load=0, din= 9, dout=11
+#  time=2200000,  clk=1  reset=0  shift_mode=2, load=0, din= 9, dout=13
+#  time=2300000,  clk=0  reset=0  shift_mode=2, load=0, din= 9, dout=13
+#  time=2400000,  clk=1  reset=0  shift_mode=2, load=0, din= 9, dout=14
+#  time=2500000,  clk=0  reset=0  shift_mode=2, load=0, din= 9, dout=14
+#  time=2600000,  clk=1  reset=1  shift_mode=2, load=0, din= 9, dout= 0
+#  time=2700000,  clk=0  reset=1  shift_mode=2, load=0, din= 9, dout= 0
+#  time=2800000,  clk=1  reset=0  shift_mode=2, load=1, din=13, dout= 0
+#  time=2900000,  clk=0  reset=0  shift_mode=2, load=1, din=13, dout= 0
+#  time=3000000,  clk=1  reset=0  shift_mode=3, load=0, din=13, dout= 0
+#  time=3100000,  clk=0  reset=0  shift_mode=3, load=0, din=13, dout= 0
+#  time=3200000,  clk=1  reset=0  shift_mode=3, load=0, din=13, dout= 0
+#  time=3300000,  clk=0  reset=0  shift_mode=3, load=0, din=13, dout= 0
+#  time=3400000,  clk=1  reset=0  shift_mode=3, load=0, din=13, dout= 0
+#  time=3500000,  clk=0  reset=0  shift_mode=3, load=0, din=13, dout= 0
+#  time=3600000,  clk=1  reset=0  shift_mode=3, load=0, din=13, dout= 0
+#  time=3700000,  clk=0  reset=0  shift_mode=3, load=0, din=13, dout= 0
+#  time=3800000,  clk=1  reset=1  shift_mode=3, load=0, din=13, dout= 0
+#  time=3900000,  clk=0  reset=1  shift_mode=3, load=0, din=13, dout= 0
+#  time=4000000,  clk=1  reset=0  shift_mode=3, load=1, din= 8, dout= 0
+#  time=4100000,  clk=0  reset=0  shift_mode=3, load=1, din= 8, dout= 0
+#  time=4200000,  clk=1  reset=0  shift_mode=4, load=0, din= 8, dout= 0
+#  time=4300000,  clk=0  reset=0  shift_mode=4, load=0, din= 8, dout= 0
+#  time=4400000,  clk=1  reset=0  shift_mode=4, load=0, din= 8, dout= 0
+#  time=4500000,  clk=0  reset=0  shift_mode=4, load=0, din= 8, dout= 0
+#  time=4600000,  clk=1  reset=0  shift_mode=4, load=0, din= 8, dout= 0
+#  time=4700000,  clk=0  reset=0  shift_mode=4, load=0, din= 8, dout= 0
+#  time=4800000,  clk=1  reset=0  shift_mode=4, load=0, din= 8, dout= 0
+#  time=4900000,  clk=0  reset=0  shift_mode=4, load=0, din= 8, dout= 0
+#  time=5000000,  clk=1  reset=1  shift_mode=4, load=0, din= 8, dout= 0
+#  time=5100000,  clk=0  reset=1  shift_mode=4, load=0, din= 8, dout= 0
+#  time=5200000,  clk=1  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=5300000,  clk=0  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=5400000,  clk=1  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=5500000,  clk=0  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=5600000,  clk=1  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=5700000,  clk=0  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=5800000,  clk=1  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=5900000,  clk=0  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6000000,  clk=1  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6100000,  clk=0  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6200000,  clk=1  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6300000,  clk=0  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6400000,  clk=1  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6500000,  clk=0  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6600000,  clk=1  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6700000,  clk=0  reset=0  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6800000,  clk=1  reset=1  shift_mode=5, load=0, din= 8, dout= 0
+#  time=6900000,  clk=0  reset=1  shift_mode=5, load=0, din= 8, dout= 0
+#  time=7000000,  clk=1  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=7100000,  clk=0  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=7200000,  clk=1  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=7300000,  clk=0  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=7400000,  clk=1  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=7500000,  clk=0  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=7600000,  clk=1  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=7700000,  clk=0  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=7800000,  clk=1  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=7900000,  clk=0  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=8000000,  clk=1  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=8100000,  clk=0  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=8200000,  clk=1  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=8300000,  clk=0  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=8400000,  clk=1  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=8500000,  clk=0  reset=0  shift_mode=6, load=0, din= 8, dout= 0
+#  time=8600000,  clk=1  reset=1  shift_mode=6, load=0, din= 8, dout= 0
+#  time=8700000,  clk=0  reset=1  shift_mode=6, load=0, din= 8, dout= 0
+#  time=8800000,  clk=1  reset=0  shift_mode=0, load=0, din= 8, dout= 8
+#  time=8900000,  clk=0  reset=0  shift_mode=0, load=0, din= 8, dout= 8
+#  time=9000000,  clk=1  reset=0  shift_mode=0, load=0, din= 8, dout= 8
+#  time=9100000,  clk=0  reset=0  shift_mode=0, load=0, din= 8, dout= 8
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv(170)
+#    Time: 9200 ns  Iteration: 0  Instance: /universal_shift_register_testbench
+# 1
+# Break in Module universal_shift_register_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv line 170
+# End time: 14:15:34 on Jul 28,2025, Elapsed time: 0:07:00
+# Errors: 0, Warnings: 5
