@@ -1,9 +1,6 @@
-# Compile of universal_shift_register.sv was successful.
-# Compile of universal_shift_register_testbench.sv was successful.
-# 2 compiles, 0 failed with no errors.
 vsim -gui work.universal_shift_register_testbench
 # vsim -gui work.universal_shift_register_testbench 
-# Start time: 14:08:34 on Jul 28,2025
+# Start time: 18:15:14 on Jul 28,2025
 # Loading sv_std.std
 # Loading work.universal_shift_register_testbench
 # Loading work.universal_shift_register
@@ -113,5 +110,5 @@ run -all
 #    Time: 9200 ns  Iteration: 0  Instance: /universal_shift_register_testbench
 # 1
 # Break in Module universal_shift_register_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv line 170
-# End time: 14:15:34 on Jul 28,2025, Elapsed time: 0:07:00
-# Errors: 0, Warnings: 5
+# End time: 18:38:05 on Jul 28,2025, Elapsed time: 0:22:51
+# Errors: 0, Warnings: 1

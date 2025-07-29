@@ -1,11 +1,4 @@
-{C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module universal_shift_register
-
-Top level modules:
-	universal_shift_register
-
-} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv}
+{C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework3/Lab3/universal_shift_register/universal_shift_register_testbench.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module universal_shift_register_testbench
 
