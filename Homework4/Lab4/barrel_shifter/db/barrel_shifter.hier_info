@@ -1,0 +1,89 @@
+|barrel_shifter
+select => shift0_in1.OUTPUTSELECT
+select => shift0_in1.OUTPUTSELECT
+select => shift0_in1.OUTPUTSELECT
+select => shift0_in1.OUTPUTSELECT
+select => shift1_in1.OUTPUTSELECT
+select => shift1_in1.OUTPUTSELECT
+select => shift1_in1.OUTPUTSELECT
+select => shift1_in1.OUTPUTSELECT
+direction => shift0_in1.OUTPUTSELECT
+direction => shift0_in1.OUTPUTSELECT
+direction => shift0_in1.OUTPUTSELECT
+direction => shift0_in1.OUTPUTSELECT
+direction => shift0_in1.OUTPUTSELECT
+direction => shift0_in1.OUTPUTSELECT
+direction => shift0_in1.OUTPUTSELECT
+direction => shift0_in1.OUTPUTSELECT
+direction => shift1_in1.OUTPUTSELECT
+direction => shift1_in1.OUTPUTSELECT
+direction => shift1_in1.OUTPUTSELECT
+direction => shift1_in1.OUTPUTSELECT
+shift_value[0] => shift_value[0].IN4
+shift_value[1] => shift_value[1].IN4
+din[0] => din[0].IN1
+din[1] => din[1].IN1
+din[2] => din[2].IN1
+din[3] => din[3].IN1
+dout[0] <= mux_2x1:mux_shift1[0].mux2.out
+dout[1] <= mux_2x1:mux_shift1[1].mux2.out
+dout[2] <= mux_2x1:mux_shift1[2].mux2.out
+dout[3] <= mux_2x1:mux_shift1[3].mux2.out
+
+
+|barrel_shifter|mux_2x1:mux_shift0[0].mux1
+in0 => out.DATAB
+in1 => out.DATAA
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|barrel_shifter|mux_2x1:mux_shift0[1].mux1
+in0 => out.DATAB
+in1 => out.DATAA
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|barrel_shifter|mux_2x1:mux_shift0[2].mux1
+in0 => out.DATAB
+in1 => out.DATAA
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|barrel_shifter|mux_2x1:mux_shift0[3].mux1
+in0 => out.DATAB
+in1 => out.DATAA
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|barrel_shifter|mux_2x1:mux_shift1[0].mux2
+in0 => out.DATAB
+in1 => out.DATAA
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|barrel_shifter|mux_2x1:mux_shift1[1].mux2
+in0 => out.DATAB
+in1 => out.DATAA
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|barrel_shifter|mux_2x1:mux_shift1[2].mux2
+in0 => out.DATAB
+in1 => out.DATAA
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|barrel_shifter|mux_2x1:mux_shift1[3].mux2
+in0 => out.DATAB
+in1 => out.DATAA
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

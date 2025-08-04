@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "lfsr_done",
+					"strict" : false
+				},
+				{
+					"name" : "lfsr_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lfsr_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lfsr_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lfsr_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "load_seed",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "seed_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seed_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seed_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seed_data[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

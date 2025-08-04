@@ -1,0 +1,36 @@
+|lfsr
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => lfsr_reg[0].CLK
+clk => lfsr_reg[1].CLK
+clk => lfsr_reg[2].CLK
+clk => lfsr_reg[3].CLK
+reset => count[0].ACLR
+reset => count[1].ACLR
+reset => count[2].ACLR
+reset => count[3].ACLR
+reset => lfsr_reg[0].ACLR
+reset => lfsr_reg[1].ACLR
+reset => lfsr_reg[2].ACLR
+reset => lfsr_reg[3].ACLR
+load_seed => lfsr_reg.OUTPUTSELECT
+load_seed => lfsr_reg.OUTPUTSELECT
+load_seed => lfsr_reg.OUTPUTSELECT
+load_seed => lfsr_reg.OUTPUTSELECT
+load_seed => count.OUTPUTSELECT
+load_seed => count.OUTPUTSELECT
+load_seed => count.OUTPUTSELECT
+load_seed => count.OUTPUTSELECT
+seed_data[0] => lfsr_reg.DATAB
+seed_data[1] => lfsr_reg.DATAB
+seed_data[2] => lfsr_reg.DATAB
+seed_data[3] => lfsr_reg.DATAB
+lfsr_done <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+lfsr_data[0] <= lfsr_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+lfsr_data[1] <= lfsr_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+lfsr_data[2] <= lfsr_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+lfsr_data[3] <= lfsr_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,15 @@
+{C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework4/Lab4/lfsr/lfsr.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework4/Lab4/lfsr/lfsr.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lfsr
+
+Top level modules:
+	lfsr
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework4/Lab4/lfsr/lfsr_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework4/Lab4/lfsr/lfsr_testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lfsr_testbench
+
+Top level modules:
+	lfsr_testbench
+
+} {} {}}
