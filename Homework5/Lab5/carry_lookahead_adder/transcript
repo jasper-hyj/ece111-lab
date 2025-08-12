@@ -1,0 +1,36 @@
+# Compile of carry_lookahead_adder.sv was successful.
+# Compile of carry_lookahead_adder_testbench.sv was successful.
+# Compile of fulladder.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.carry_lookahead_adder_testbench
+# vsim -gui work.carry_lookahead_adder_testbench 
+# Start time: 22:24:18 on Aug 11,2025
+# Loading sv_std.std
+# Loading work.carry_lookahead_adder_testbench
+# Loading work.carry_lookahead_adder
+# Loading work.fulladder
+add wave -position end  sim:/carry_lookahead_adder_testbench/design_instance/N
+add wave -position end  sim:/carry_lookahead_adder_testbench/design_instance/A
+add wave -position end  sim:/carry_lookahead_adder_testbench/design_instance/B
+add wave -position end  sim:/carry_lookahead_adder_testbench/design_instance/CIN
+add wave -position end  sim:/carry_lookahead_adder_testbench/design_instance/result
+run -all
+#  time=0   A= 0   B= 0   CIN=0   result= 0
+# 
+#  time=100   A= 2   B= 1   CIN=1   result= 4
+# 
+#  time=150   A= 1   B= 1   CIN=0   result= 2
+# 
+#  time=200   A= 2   B= 2   CIN=0   result= 4
+# 
+#  time=250   A= 3   B= 1   CIN=0   result= 4
+# 
+#  time=300   A= 4   B= 7   CIN=1   result=12
+# 
+#  time=350   A=15   B= 2   CIN=0   result=17
+# 
+#  time=400   A=10   B= 5   CIN=0   result=15
+# 
+quit -sim
+# End time: 22:25:06 on Aug 11,2025, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 2

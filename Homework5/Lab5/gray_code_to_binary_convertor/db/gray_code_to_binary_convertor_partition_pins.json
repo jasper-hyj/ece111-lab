@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "binary_value[0]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_value[1]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_value[2]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_value[3]",
+					"strict" : false
+				},
+				{
+					"name" : "gray_value[2]",
+					"strict" : false
+				},
+				{
+					"name" : "gray_value[3]",
+					"strict" : false
+				},
+				{
+					"name" : "gray_value[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gray_value[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+|gray_code_to_binary_convertor
+clk => binary_value[0]~reg0.CLK
+clk => binary_value[1]~reg0.CLK
+clk => binary_value[2]~reg0.CLK
+clk => binary_value[3]~reg0.CLK
+rstn => binary_value[0]~reg0.ACLR
+rstn => binary_value[1]~reg0.ACLR
+rstn => binary_value[2]~reg0.ACLR
+rstn => binary_value[3]~reg0.ACLR
+gray_value[0] => gray_to_binary.IN1
+gray_value[1] => gray_to_binary.IN1
+gray_value[2] => gray_to_binary.IN0
+gray_value[3] => gray_to_binary.IN1
+gray_value[3] => binary_value[3]~reg0.DATAIN
+binary_value[0] <= binary_value[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binary_value[1] <= binary_value[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binary_value[2] <= binary_value[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binary_value[3] <= binary_value[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

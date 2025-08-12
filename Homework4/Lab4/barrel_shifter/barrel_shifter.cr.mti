@@ -5,13 +5,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	barrel_shifter_testbench
 
-} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework4/Lab4/barrel_shifter/barrel_shifter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework4/Lab4/barrel_shifter/barrel_shifter.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module barrel_shifter
-
-Top level modules:
-	barrel_shifter
-
 } {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework4/Lab4/barrel_shifter/mux_2x1_behavioral.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework4/Lab4/barrel_shifter/mux_2x1_behavioral.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module mux_2x1
