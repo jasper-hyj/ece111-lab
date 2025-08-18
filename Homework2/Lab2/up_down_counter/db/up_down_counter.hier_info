@@ -2,10 +2,10 @@
 clk => clk.IN2
 clear => clear.IN2
 select => select.IN1
-count_value[0] <= mux_2x1:mux_2x1.out
-count_value[1] <= mux_2x1:mux_2x1.out
-count_value[2] <= mux_2x1:mux_2x1.out
-count_value[3] <= mux_2x1:mux_2x1.out
+count_value[0] << mux_2x1:mux_2x1.out
+count_value[1] << mux_2x1:mux_2x1.out
+count_value[2] << mux_2x1:mux_2x1.out
+count_value[3] << mux_2x1:mux_2x1.out
 
 
 |up_down_counter|up_counter:up_counter

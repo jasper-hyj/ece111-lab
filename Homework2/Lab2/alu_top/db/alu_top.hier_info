@@ -27,14 +27,14 @@ select[0] => select[0].IN1
 select[1] => select[1].IN1
 select[2] => select[2].IN1
 select[3] => select[3].IN1
-result[0] <= result[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-result[1] <= result[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-result[2] <= result[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-result[3] <= result[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-result[4] <= result[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-result[5] <= result[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-result[6] <= result[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-result[7] <= result[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[0] << result[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] << result[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] << result[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] << result[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[4] << result[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[5] << result[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[6] << result[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[7] << result[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |alu_top|alu:alu_inst

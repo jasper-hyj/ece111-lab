@@ -1,0 +1,61 @@
+# Compile of ecc_encoder.sv failed with 3 errors.
+# Compile of tb_ecc_encoder.sv was successful with warnings.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of ecc_encoder.sv was successful.
+# Compile of tb_ecc_encoder.sv was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_ecc_encoder
+# vsim -gui work.tb_ecc_encoder 
+# Start time: 16:54:36 on Aug 17,2025
+# Loading sv_std.std
+# Loading work.tb_ecc_encoder
+# Loading work.ecc_encoder
+add wave -position end  sim:/tb_ecc_encoder/DUT/M
+add wave -position end  sim:/tb_ecc_encoder/DUT/R
+add wave -position end  sim:/tb_ecc_encoder/DUT/N
+add wave -position end  sim:/tb_ecc_encoder/DUT/data_in
+add wave -position end  sim:/tb_ecc_encoder/DUT/data_out
+add wave -position end  sim:/tb_ecc_encoder/DUT/binary_value
+add wave -position end  sim:/tb_ecc_encoder/DUT/ecc_code
+add wave -position end  sim:/tb_ecc_encoder/DUT/parity
+add wave -position end  sim:/tb_ecc_encoder/DUT/overall_parity
+run -all
+# *Test Passed* : data_out generated from design matches data_out generated from tesbench!
+#   - At time=15 For Input data_in : 00000000, Expected data_out from testbench = 0000000000000, Actual data_out from design = 0000000000000
+#   - At time=15 Computed From Testbench : data_in = 00000000, expected parity = 0000, expected overall_parity = 0, expected ecc_out = 0000000000000
+# 
+# 
+# *Test Passed* : data_out generated from design matches data_out generated from tesbench!
+#   - At time=30 For Input data_in : 10011001, Expected data_out from testbench = 1001010001011, Actual data_out from design = 1001010001011
+#   - At time=30 Computed From Testbench : data_in = 10011001, expected parity = 0001, expected overall_parity = 1, expected ecc_out = 1001010001011
+# 
+# 
+# *Test Passed* : data_out generated from design matches data_out generated from tesbench!
+#   - At time=45 For Input data_in : 00011101, Expected data_out from testbench = 0001111001111, Actual data_out from design = 0001111001111
+#   - At time=45 Computed From Testbench : data_in = 00011101, expected parity = 1011, expected overall_parity = 1, expected ecc_out = 0001111001111
+# 
+# 
+# *Test Passed* : data_out generated from design matches data_out generated from tesbench!
+#   - At time=60 For Input data_in : 11010010, Expected data_out from testbench = 1101100100111, Actual data_out from design = 1101100100111
+#   - At time=60 Computed From Testbench : data_in = 11010010, expected parity = 1011, expected overall_parity = 1, expected ecc_out = 1101100100111
+# 
+# 
+# *Test Passed* : data_out generated from design matches data_out generated from tesbench!
+#   - At time=75 For Input data_in : 01100111, Expected data_out from testbench = 0110001101010, Actual data_out from design = 0110001101010
+#   - At time=75 Computed From Testbench : data_in = 01100111, expected parity = 0001, expected overall_parity = 0, expected ecc_out = 0110001101010
+# 
+# 
+# *Test Passed* : data_out generated from design matches data_out generated from tesbench!
+#   - At time=90 For Input data_in : 11001000, Expected data_out from testbench = 1100010000001, Actual data_out from design = 1100010000001
+#   - At time=90 Computed From Testbench : data_in = 11001000, expected parity = 0000, expected overall_parity = 1, expected ecc_out = 1100010000001
+# 
+# 
+# *Test Passed* : data_out generated from design matches data_out generated from tesbench!
+#   - At time=105 For Input data_in : 01011010, Expected data_out from testbench = 0101010100000, Actual data_out from design = 0101010100000
+#   - At time=105 Computed From Testbench : data_in = 01011010, expected parity = 0000, expected overall_parity = 0, expected ecc_out = 0101010100000
+# 
+# 
+# A time value could not be extracted from the current line
+quit
+# End time: 17:05:21 on Aug 17,2025, Elapsed time: 0:10:45
+# Errors: 0, Warnings: 3

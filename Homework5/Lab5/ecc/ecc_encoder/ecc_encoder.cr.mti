@@ -1,0 +1,16 @@
+{C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv} {2 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_ecc_encoder
+** Warning: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv(29): (vlog-2240) Treating stand-alone use of function 'compute_and_compare_ecc_data_out' as an implicit VOID cast.
+** Warning: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv(33): (vlog-2240) Treating stand-alone use of function 'compute_and_compare_ecc_data_out' as an implicit VOID cast.
+** Warning: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv(37): (vlog-2240) Treating stand-alone use of function 'compute_and_compare_ecc_data_out' as an implicit VOID cast.
+** Warning: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv(41): (vlog-2240) Treating stand-alone use of function 'compute_and_compare_ecc_data_out' as an implicit VOID cast.
+** Warning: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv(45): (vlog-2240) Treating stand-alone use of function 'compute_and_compare_ecc_data_out' as an implicit VOID cast.
+** Warning: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv(49): (vlog-2240) Treating stand-alone use of function 'compute_and_compare_ecc_data_out' as an implicit VOID cast.
+** Warning: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv(53): (vlog-2240) Treating stand-alone use of function 'compute_and_compare_ecc_data_out' as an implicit VOID cast.
+** Warning: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder/tb_ecc_encoder.sv(64): (vlog-2250) Function "compute_and_compare_ecc_data_out" has no return value assignment.
+
+Top level modules:
+	tb_ecc_encoder
+
+} {} {}}
