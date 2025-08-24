@@ -1,0 +1,15 @@
+{C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/ecc_decoder.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/ecc_decoder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ecc_decoder
+
+Top level modules:
+	ecc_decoder
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/tb_ecc_decoder.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/tb_ecc_decoder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_ecc_decoder
+
+Top level modules:
+	tb_ecc_decoder
+
+} {} {}}

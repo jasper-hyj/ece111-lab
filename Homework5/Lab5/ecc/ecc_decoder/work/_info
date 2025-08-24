@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_encoder
+vecc_decoder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1755476339
+!i10b 1
+!s100 DK6HoSk[bLWMZK[6<D;dR0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`2jcVNYjc>QgU1nb@951_1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder
+w1755476294
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/ecc_decoder.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/ecc_decoder.sv
+!i122 6
+L0 1 152
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1755476339.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/ecc_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/ecc_decoder.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vtb_ecc_decoder
+R0
+R1
+!i10b 1
+!s100 8D@kIE2B7ez[K9Uk?Ua852
+R2
+IjAO;OgOZf9Q5^``FPD1Z:2
+R3
+S1
+R4
+w1754967349
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/tb_ecc_decoder.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/tb_ecc_decoder.sv
+!i122 7
+L0 2 176
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/tb_ecc_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework5/Lab5/ecc/ecc_decoder/tb_ecc_decoder.sv|
+!i113 1
+R7
+R8

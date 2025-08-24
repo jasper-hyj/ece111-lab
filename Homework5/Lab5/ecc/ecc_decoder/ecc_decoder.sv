@@ -23,32 +23,38 @@ module ecc_decoder
   always_comb begin
     // Re-compute overall parity of incoming data_in
 	// Remember to discard LSB bit in incoming data_in[0] to re-compute overall parity
-    assign // student to complete this code
-    
+    // student to complete this code
+    overall_parity = 0;
+    for (int j=1; j<=N; j++) begin
+      overall_parity ^= data_in[j];
+    end
   
     // Remove LSB bit from incoming data to generate ecc code word
     // LSB bit in incoming data represents overall_parity sent by the ecc_encoder
-    ecc_code = // studnet to complete this code
+    ecc_code = data_in[N:1];// studnet to complete this code
   
     // Generate Syndrome
     syndrome = generate_syndrome(ecc_code); 
     
     // Generate error type and final data out based on syndrome and overall parity check
-	// use if else-if statements to generate error_type (i.e. error code)
-	// This error_type value indicates if its single bit error, double bit error, overall parity bit error
-	// See below definition of error_type (i.e. error_code) which needs to be implemented
-	// single bit error : if syndrome!=0 and overall_parity re-computed != incoming overall parity data_in[0] then error_type = 2'b01
-	// No error : if syndrome==0 and overall_parity re-computed == incoming overall parity data_in[0] then error_type = 2'b00
-	// overall parity bit error : if syndrome==0 and overall_parity re-computed != incoming overall parity data_in[0] then error_type = 2'b11
-	// double bit error : if syndrome!=0 and overall_parity re-computed == incoming overall parity data_in[0] then error_type = 2'b10
-    if(<student to add code here>) begin
+    // use if else-if statements to generate error_type (i.e. error code)
+    // This error_type value indicates if its single bit error, double bit error, overall parity bit error
+    // See below definition of error_type (i.e. error_code) which needs to be implemented
+    // single bit error : if syndrome!=0 and overall_parity re-computed != incoming overall parity data_in[0] then error_type = 2'b01
+    // No error : if syndrome==0 and overall_parity re-computed == incoming overall parity data_in[0] then error_type = 2'b00
+    // overall parity bit error : if syndrome==0 and overall_parity re-computed != incoming overall parity data_in[0] then error_type = 2'b11
+    // double bit error : if syndrome!=0 and overall_parity re-computed == incoming overall parity data_in[0] then error_type = 2'b10
+    if((syndrome != 0) && (overall_parity != data_in[0])) begin
       //student to add code here  // single bit error
+      error_type = 2'b01;
     end
-    else if(<student to add code here>) begin
-     //student to add code here  // single bit error// double bit error
+    else if((syndrome != 0) && (overall_parity == data_in[0])) begin
+      //student to add code here  // single bit error// double bit error
+      error_type = 2'b10;
     end
-    else if(<student to add code here>) begin
-     //student to add code here  // single bit error // overall parity bit error
+    else if((syndrome == 0) && (overall_parity != data_in[0])) begin
+      //student to add code here  // single bit error // overall parity bit error
+      error_type = 2'b11;
     end
     else begin
       error_type = 2'b00; // no error
@@ -68,6 +74,13 @@ module ecc_decoder
   // i.e. Added flipflop at the output ports data_out and error_code
   always_ff@(posedge clk, posedge reset) begin
     // Student to add code here
+    if (reset) begin
+      data_out   <= '0;
+      error_code <= 2'b00;
+    end else begin
+      data_out   <= message_data;
+      error_code <= error_type;
+    end
   end
   
   // Function to create parity, ecc code, overall parity and final data out 
@@ -79,6 +92,9 @@ module ecc_decoder
     // Create binary value from 0 until N
     for(int i=0; i<=N; i++) begin
       // Student to add code here
+      for (int b=1; b<=R; b++) begin
+        binary_value[i][b] = (i >> (b-1)) & 1;
+      end
     end  
    
     // Generate syndrome values using ecc_code_word
@@ -86,6 +102,7 @@ module ecc_decoder
      for(int j=1; j<=N; j++) begin
       if((binary_value[j][i] == 1)) begin
          // Student to add code here   
+          generate_syndrome[i-1] ^= ecc_code_word[j];
       end
      end
     end  
@@ -100,11 +117,13 @@ module ecc_decoder
     d_idx=0;
     
     // Extract message data from ecc code word and store it in extract_message_data_from_ecc_code[d_idx++]
-	// Remember extract_message_data_from_ecc_code is the return variable which is the function name itself
-	// data bit positions are non-power of two so ensure index of ecc_code_word is ! != 2**$clog2(e_idx)
+    // Remember extract_message_data_from_ecc_code is the return variable which is the function name itself
+    // data bit positions are non-power of two so ensure index of ecc_code_word is ! != 2**$clog2(e_idx)
     for (int e_idx=1; e_idx<=N; e_idx++) begin
-      if (e_idx != <student to add code here>) begin
+      if (e_idx != (1 << $clog2(e_idx))) begin
        // Student to add code here
+        extract_message_data_from_ecc_code[d_idx] = ecc_code_word[e_idx];
+        d_idx++;
       end
     end 
    end
@@ -118,9 +137,10 @@ module ecc_decoder
     
     // Generate corrected ecc code word in case of single bit error (i.e. for error code 2'b01)
     // In case of no error, double bit error, overall parity bit error do not correct the data as data does not need correction
-    if(<student to add code here>) begin // check here value of "err_type" coming into this function if its value is 2'b01 which is single bit error
+    if(err_type == 2'b01) begin // check here value of "err_type" coming into this function if its value is 2'b01 which is single bit error
       // Flip bit in ecc code based on syndrome value
       // Student to add code here
+      generate_corrected_ecc_code[syn] = ~ecc_code_word[syn];
     end
     else begin
       // Do not flip bit
