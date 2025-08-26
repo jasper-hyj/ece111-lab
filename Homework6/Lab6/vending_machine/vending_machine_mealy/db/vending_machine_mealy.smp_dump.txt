@@ -1,0 +1,6 @@
+
+State Machine - |vending_machine_mealy|present_state
+Name present_state.CENTS_0 present_state.CENTS_10 present_state.CENTS_5 
+present_state.CENTS_0 0 0 0 
+present_state.CENTS_5 1 0 1 
+present_state.CENTS_10 1 1 0 

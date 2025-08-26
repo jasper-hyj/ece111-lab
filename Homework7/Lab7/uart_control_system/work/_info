@@ -1,0 +1,186 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_top
+vuart_control_system
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1756169967
+!i10b 1
+!s100 `VXf5;oecUkg`RB5^DF2c1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1dVmSVXe0Ff@CQonLmSD^3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system
+w1756169558
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system.sv
+!i122 18
+L0 2 63
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1756169967.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vuart_control_system_testbench
+R0
+R1
+!i10b 1
+!s100 g7<3TSh`iL_T:XSZoE08c2
+R2
+IbMjD^=dz;cDz1bnT6;3gH2
+R3
+S1
+R4
+Z9 w1756076061
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system_testbench.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system_testbench.sv
+!i122 19
+L0 4 153
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system_testbench.sv|
+!i113 1
+R7
+R8
+vuart_rx
+R0
+R1
+!i10b 1
+!s100 l@mVCI:mFMgCB>T>ALaBg0
+R2
+IU4j?DnNgQe]l`8H=nHPeH3
+R3
+S1
+R4
+w1756165209
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_rx.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_rx.sv
+!i122 20
+L0 2 162
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_rx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_rx.sv|
+!i113 1
+R7
+R8
+vuart_rx_control
+R0
+R1
+!i10b 1
+!s100 o;NL1T@mbfCeC9IJTVNn80
+R2
+I;zzaM60`GQ[OE]b@m>_Eo1
+R3
+S1
+R4
+w1756169954
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_rx_control.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_rx_control.sv
+!i122 21
+L0 2 98
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_rx_control.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_rx_control.sv|
+!i113 1
+R7
+R8
+vuart_top
+R0
+R1
+!i10b 1
+!s100 [JAVTMZkgI_FD<hDhcej]0
+R2
+Id9A<QAnOMc7E1^EY]?0^B2
+R3
+S1
+R4
+w1756166248
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_top.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_top.sv
+!i122 22
+L0 2 37
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_top.sv|
+!i113 1
+R7
+R8
+vuart_tx
+R0
+R1
+!i10b 1
+!s100 zYTAcmO?@V=IS9H68JV`o3
+R2
+IFMCYWaT=XE1<2UP=><5?]2
+R3
+S1
+R4
+R9
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_tx.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_tx.sv
+!i122 23
+L0 2 114
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_tx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_tx.sv|
+!i113 1
+R7
+R8
+vuart_tx_control
+R0
+R1
+!i10b 1
+!s100 RTKBH5gQ5;n3YV8LZloX;1
+R2
+Ic6H8:?j^QoHRhAADG`76F3
+R3
+S1
+R4
+w1756168976
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_tx_control.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_tx_control.sv
+!i122 24
+L0 2 123
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_tx_control.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_tx_control.sv|
+!i113 1
+R7
+R8

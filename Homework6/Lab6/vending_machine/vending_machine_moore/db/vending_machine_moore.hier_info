@@ -1,0 +1,26 @@
+|vending_machine_moore
+clk => present_state~1.DATAIN
+rstn => Selector3.IN3
+rstn => present_state.OUTPUTSELECT
+rstn => present_state.OUTPUTSELECT
+rstn => present_state.OUTPUTSELECT
+rstn => present_state.OUTPUTSELECT
+rstn => Selector0.IN0
+N => next_state.OUTPUTSELECT
+N => next_state.OUTPUTSELECT
+N => next_state.OUTPUTSELECT
+N => next_state.OUTPUTSELECT
+N => next_state.OUTPUTSELECT
+N => next_state.OUTPUTSELECT
+N => next_state.OUTPUTSELECT
+N => always1.IN0
+D => next_state.OUTPUTSELECT
+D => next_state.OUTPUTSELECT
+D => next_state.OUTPUTSELECT
+D => next_state.OUTPUTSELECT
+D => next_state.OUTPUTSELECT
+D => next_state.OUTPUTSELECT
+D => always1.IN1
+open <= open.DB_MAX_OUTPUT_PORT_TYPE
+
+

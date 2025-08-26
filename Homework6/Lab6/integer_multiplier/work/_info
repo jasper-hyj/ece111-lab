@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/vending_machine_fsm_minimization
+vcarry_lookahead_adder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1756183744
+!i10b 1
+!s100 nI=[g4QDlaTEE2P0Z:ZCi1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[5:Mg]5GZD?F8UgNVAH^e0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier
+w1754976233
+8carry_lookahead_adder.sv
+Fcarry_lookahead_adder.sv
+!i122 4
+L0 2 35
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1756183744.000000
+Z7 !s107 carry_lookahead_adder.sv|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/integer_multiplier.sv|
+Z8 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/integer_multiplier.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+vfulladder
+R0
+Z11 !s110 1756183745
+!i10b 1
+!s100 9G=M92O2HBMSO<P4Bc4N20
+R2
+I4E0WnNeKNVWELcXOWI3QP0
+R3
+S1
+R4
+w1754967349
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/fulladder.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/fulladder.sv
+!i122 6
+L0 2 10
+R5
+r1
+!s85 0
+31
+Z12 !s108 1756183745.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/fulladder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/fulladder.sv|
+!i113 1
+R9
+R10
+vinteger_multiplier
+R0
+R1
+!i10b 1
+!s100 AGkz[1<Y28=I=D8^=eaY[0
+R2
+Ic:5gdLbQR^Ka@PI<h6:Ah2
+R3
+S1
+R4
+w1756183600
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/integer_multiplier.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/integer_multiplier.sv
+!i122 4
+L0 4 143
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+vinteger_multiplier_testbench
+R0
+R11
+!i10b 1
+!s100 ?CCn6S`I:9EoIo3J7O_?o0
+R2
+IDd_2k=cBSKP56l565bn6A3
+R3
+S1
+R4
+w1756076672
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/integer_multiplier_testbench.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/integer_multiplier_testbench.sv
+!i122 5
+L0 3 105
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/integer_multiplier_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/integer_multiplier/integer_multiplier_testbench.sv|
+!i113 1
+R9
+R10

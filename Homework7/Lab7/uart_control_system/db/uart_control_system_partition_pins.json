@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "mem_write_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_write_enable",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_enable",
+					"strict" : false
+				},
+				{
+					"name" : "message_received",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_read_data[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

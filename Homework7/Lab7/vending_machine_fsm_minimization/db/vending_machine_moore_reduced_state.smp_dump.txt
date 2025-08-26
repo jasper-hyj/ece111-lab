@@ -1,0 +1,8 @@
+
+State Machine - |vending_machine_moore_reduced_state|present_state
+Name present_state.S4 present_state.S3 present_state.S2 present_state.S1 present_state.S5 
+present_state.S1 0 0 0 0 0 
+present_state.S2 0 0 1 1 0 
+present_state.S3 0 1 0 1 0 
+present_state.S4 1 0 0 1 0 
+present_state.S5 0 0 0 1 1 

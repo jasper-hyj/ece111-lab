@@ -17,22 +17,50 @@ module vending_machine_mealy(
  // Sequential Logic for present state
  always_ff@(posedge clk) begin
   if(!rstn) begin
-
     // Student to Add Code 
-
+    present_state <= CENTS_0;
+    r_N <= 0;
+    r_D <= 0;
   end 
   else begin
-
     // Student to Add Code 
-
+    present_state <= next_state;
+    r_N <= N;
+    r_D <= D;
   end
  end
 
 
- // Combination Logic for Next State and Output
- always_comb begin 
-
+  // Combination Logic for Next State and Output
+  always_comb begin 
   // Student to Add Code
+    next_state = present_state;
+    open = 0;
+    case (present_state)
+      CENTS_0: begin
+        if (r_N) next_state = CENTS_5;
+        else if (r_D) next_state = CENTS_10;
+      end
 
- end
+      CENTS_5: begin
+        if (r_N) next_state = CENTS_10;
+        else if (r_D) begin
+          next_state = CENTS_0;
+          open = 1;
+        end
+      end
+
+      CENTS_10: begin
+        if (r_N || r_D) begin
+          next_state = CENTS_0;
+          open = 1;
+        end
+      end
+      
+      default: begin
+        next_state = present_state;
+        open = 0;
+      end
+    endcase
+  end
 endmodule: vending_machine_mealy

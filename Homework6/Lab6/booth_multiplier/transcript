@@ -1,0 +1,536 @@
+# Compile of booth_multiplier.sv was successful.
+# Compile of booth_multiplier_testbench.sv was successful.
+# Compile of carry_lookahead_adder.sv was successful.
+# Compile of fulladder.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.booth_multiplier_testbench
+# vsim -gui work.booth_multiplier_testbench 
+# Start time: 00:22:32 on Aug 26,2025
+# Loading sv_std.std
+# Loading work.booth_multiplier_testbench
+# Loading work.booth_multiplier
+# Loading work.carry_lookahead_adder
+# Loading work.fulladder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'result'. The port definition is at: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/booth_multiplier/carry_lookahead_adder.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /booth_multiplier_testbench/design_instance/adder_inst File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/booth_multiplier/booth_multiplier.sv Line: 42
+run -all
+#  time=250000   Multiplicand= -8   Multiplier= -8   Product=  64   Done=1 : Correct Result
+# 
+#  time=530000   Multiplicand= -8   Multiplier= -7   Product=  56   Done=1 : Correct Result
+# 
+#  time=810000   Multiplicand= -8   Multiplier= -6   Product=  48   Done=1 : Correct Result
+# 
+#  time=1090000   Multiplicand= -8   Multiplier= -5   Product=  40   Done=1 : Correct Result
+# 
+#  time=1330000   Multiplicand= -8   Multiplier= -4   Product=  32   Done=1 : Correct Result
+# 
+#  time=1610000   Multiplicand= -8   Multiplier= -3   Product=  24   Done=1 : Correct Result
+# 
+#  time=1850000   Multiplicand= -8   Multiplier= -2   Product=  16   Done=1 : Correct Result
+# 
+#  time=2090000   Multiplicand= -8   Multiplier= -1   Product=   8   Done=1 : Correct Result
+# 
+#  time=2310000   Multiplicand= -8   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=2570000   Multiplicand= -8   Multiplier=  1   Product=  -8   Done=1 : Correct Result
+# 
+#  time=2830000   Multiplicand= -8   Multiplier=  2   Product= -16   Done=1 : Correct Result
+# 
+#  time=3090000   Multiplicand= -8   Multiplier=  3   Product= -24   Done=1 : Correct Result
+# 
+#  time=3350000   Multiplicand= -8   Multiplier=  4   Product= -32   Done=1 : Correct Result
+# 
+#  time=3650000   Multiplicand= -8   Multiplier=  5   Product= -40   Done=1 : Correct Result
+# 
+#  time=3910000   Multiplicand= -8   Multiplier=  6   Product= -48   Done=1 : Correct Result
+# 
+#  time=4170000   Multiplicand= -8   Multiplier=  7   Product= -56   Done=1 : Correct Result
+# 
+#  time=4410000   Multiplicand= -7   Multiplier= -8   Product=  56   Done=1 : Correct Result
+# 
+#  time=4690000   Multiplicand= -7   Multiplier= -7   Product=  49   Done=1 : Correct Result
+# 
+#  time=4970000   Multiplicand= -7   Multiplier= -6   Product=  42   Done=1 : Correct Result
+# 
+#  time=5250000   Multiplicand= -7   Multiplier= -5   Product=  35   Done=1 : Correct Result
+# 
+#  time=5490000   Multiplicand= -7   Multiplier= -4   Product=  28   Done=1 : Correct Result
+# 
+#  time=5770000   Multiplicand= -7   Multiplier= -3   Product=  21   Done=1 : Correct Result
+# 
+#  time=6010000   Multiplicand= -7   Multiplier= -2   Product=  14   Done=1 : Correct Result
+# 
+#  time=6250000   Multiplicand= -7   Multiplier= -1   Product=   7   Done=1 : Correct Result
+# 
+#  time=6470000   Multiplicand= -7   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=6730000   Multiplicand= -7   Multiplier=  1   Product=  -7   Done=1 : Correct Result
+# 
+#  time=6990000   Multiplicand= -7   Multiplier=  2   Product= -14   Done=1 : Correct Result
+# 
+#  time=7250000   Multiplicand= -7   Multiplier=  3   Product= -21   Done=1 : Correct Result
+# 
+#  time=7510000   Multiplicand= -7   Multiplier=  4   Product= -28   Done=1 : Correct Result
+# 
+#  time=7810000   Multiplicand= -7   Multiplier=  5   Product= -35   Done=1 : Correct Result
+# 
+#  time=8070000   Multiplicand= -7   Multiplier=  6   Product= -42   Done=1 : Correct Result
+# 
+#  time=8330000   Multiplicand= -7   Multiplier=  7   Product= -49   Done=1 : Correct Result
+# 
+#  time=8570000   Multiplicand= -6   Multiplier= -8   Product=  48   Done=1 : Correct Result
+# 
+#  time=8850000   Multiplicand= -6   Multiplier= -7   Product=  42   Done=1 : Correct Result
+# 
+#  time=9130000   Multiplicand= -6   Multiplier= -6   Product=  36   Done=1 : Correct Result
+# 
+#  time=9410000   Multiplicand= -6   Multiplier= -5   Product=  30   Done=1 : Correct Result
+# 
+#  time=9650000   Multiplicand= -6   Multiplier= -4   Product=  24   Done=1 : Correct Result
+# 
+#  time=9930000   Multiplicand= -6   Multiplier= -3   Product=  18   Done=1 : Correct Result
+# 
+#  time=10170000   Multiplicand= -6   Multiplier= -2   Product=  12   Done=1 : Correct Result
+# 
+#  time=10410000   Multiplicand= -6   Multiplier= -1   Product=   6   Done=1 : Correct Result
+# 
+#  time=10630000   Multiplicand= -6   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=10890000   Multiplicand= -6   Multiplier=  1   Product=  -6   Done=1 : Correct Result
+# 
+#  time=11150000   Multiplicand= -6   Multiplier=  2   Product= -12   Done=1 : Correct Result
+# 
+#  time=11410000   Multiplicand= -6   Multiplier=  3   Product= -18   Done=1 : Correct Result
+# 
+#  time=11670000   Multiplicand= -6   Multiplier=  4   Product= -24   Done=1 : Correct Result
+# 
+#  time=11970000   Multiplicand= -6   Multiplier=  5   Product= -30   Done=1 : Correct Result
+# 
+#  time=12230000   Multiplicand= -6   Multiplier=  6   Product= -36   Done=1 : Correct Result
+# 
+#  time=12490000   Multiplicand= -6   Multiplier=  7   Product= -42   Done=1 : Correct Result
+# 
+#  time=12730000   Multiplicand= -5   Multiplier= -8   Product=  40   Done=1 : Correct Result
+# 
+#  time=13010000   Multiplicand= -5   Multiplier= -7   Product=  35   Done=1 : Correct Result
+# 
+#  time=13290000   Multiplicand= -5   Multiplier= -6   Product=  30   Done=1 : Correct Result
+# 
+#  time=13570000   Multiplicand= -5   Multiplier= -5   Product=  25   Done=1 : Correct Result
+# 
+#  time=13810000   Multiplicand= -5   Multiplier= -4   Product=  20   Done=1 : Correct Result
+# 
+#  time=14090000   Multiplicand= -5   Multiplier= -3   Product=  15   Done=1 : Correct Result
+# 
+#  time=14330000   Multiplicand= -5   Multiplier= -2   Product=  10   Done=1 : Correct Result
+# 
+#  time=14570000   Multiplicand= -5   Multiplier= -1   Product=   5   Done=1 : Correct Result
+# 
+#  time=14790000   Multiplicand= -5   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=15050000   Multiplicand= -5   Multiplier=  1   Product=  -5   Done=1 : Correct Result
+# 
+#  time=15310000   Multiplicand= -5   Multiplier=  2   Product= -10   Done=1 : Correct Result
+# 
+#  time=15570000   Multiplicand= -5   Multiplier=  3   Product= -15   Done=1 : Correct Result
+# 
+#  time=15830000   Multiplicand= -5   Multiplier=  4   Product= -20   Done=1 : Correct Result
+# 
+#  time=16130000   Multiplicand= -5   Multiplier=  5   Product= -25   Done=1 : Correct Result
+# 
+#  time=16390000   Multiplicand= -5   Multiplier=  6   Product= -30   Done=1 : Correct Result
+# 
+#  time=16650000   Multiplicand= -5   Multiplier=  7   Product= -35   Done=1 : Correct Result
+# 
+#  time=16890000   Multiplicand= -4   Multiplier= -8   Product=  32   Done=1 : Correct Result
+# 
+#  time=17170000   Multiplicand= -4   Multiplier= -7   Product=  28   Done=1 : Correct Result
+# 
+#  time=17450000   Multiplicand= -4   Multiplier= -6   Product=  24   Done=1 : Correct Result
+# 
+#  time=17730000   Multiplicand= -4   Multiplier= -5   Product=  20   Done=1 : Correct Result
+# 
+#  time=17970000   Multiplicand= -4   Multiplier= -4   Product=  16   Done=1 : Correct Result
+# 
+#  time=18250000   Multiplicand= -4   Multiplier= -3   Product=  12   Done=1 : Correct Result
+# 
+#  time=18490000   Multiplicand= -4   Multiplier= -2   Product=   8   Done=1 : Correct Result
+# 
+#  time=18730000   Multiplicand= -4   Multiplier= -1   Product=   4   Done=1 : Correct Result
+# 
+#  time=18950000   Multiplicand= -4   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=19210000   Multiplicand= -4   Multiplier=  1   Product=  -4   Done=1 : Correct Result
+# 
+#  time=19470000   Multiplicand= -4   Multiplier=  2   Product=  -8   Done=1 : Correct Result
+# 
+#  time=19730000   Multiplicand= -4   Multiplier=  3   Product= -12   Done=1 : Correct Result
+# 
+#  time=19990000   Multiplicand= -4   Multiplier=  4   Product= -16   Done=1 : Correct Result
+# 
+#  time=20290000   Multiplicand= -4   Multiplier=  5   Product= -20   Done=1 : Correct Result
+# 
+#  time=20550000   Multiplicand= -4   Multiplier=  6   Product= -24   Done=1 : Correct Result
+# 
+#  time=20810000   Multiplicand= -4   Multiplier=  7   Product= -28   Done=1 : Correct Result
+# 
+#  time=21050000   Multiplicand= -3   Multiplier= -8   Product=  24   Done=1 : Correct Result
+# 
+#  time=21330000   Multiplicand= -3   Multiplier= -7   Product=  21   Done=1 : Correct Result
+# 
+#  time=21610000   Multiplicand= -3   Multiplier= -6   Product=  18   Done=1 : Correct Result
+# 
+#  time=21890000   Multiplicand= -3   Multiplier= -5   Product=  15   Done=1 : Correct Result
+# 
+#  time=22130000   Multiplicand= -3   Multiplier= -4   Product=  12   Done=1 : Correct Result
+# 
+#  time=22410000   Multiplicand= -3   Multiplier= -3   Product=   9   Done=1 : Correct Result
+# 
+#  time=22650000   Multiplicand= -3   Multiplier= -2   Product=   6   Done=1 : Correct Result
+# 
+#  time=22890000   Multiplicand= -3   Multiplier= -1   Product=   3   Done=1 : Correct Result
+# 
+#  time=23110000   Multiplicand= -3   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=23370000   Multiplicand= -3   Multiplier=  1   Product=  -3   Done=1 : Correct Result
+# 
+#  time=23630000   Multiplicand= -3   Multiplier=  2   Product=  -6   Done=1 : Correct Result
+# 
+#  time=23890000   Multiplicand= -3   Multiplier=  3   Product=  -9   Done=1 : Correct Result
+# 
+#  time=24150000   Multiplicand= -3   Multiplier=  4   Product= -12   Done=1 : Correct Result
+# 
+#  time=24450000   Multiplicand= -3   Multiplier=  5   Product= -15   Done=1 : Correct Result
+# 
+#  time=24710000   Multiplicand= -3   Multiplier=  6   Product= -18   Done=1 : Correct Result
+# 
+#  time=24970000   Multiplicand= -3   Multiplier=  7   Product= -21   Done=1 : Correct Result
+# 
+#  time=25210000   Multiplicand= -2   Multiplier= -8   Product=  16   Done=1 : Correct Result
+# 
+#  time=25490000   Multiplicand= -2   Multiplier= -7   Product=  14   Done=1 : Correct Result
+# 
+#  time=25770000   Multiplicand= -2   Multiplier= -6   Product=  12   Done=1 : Correct Result
+# 
+#  time=26050000   Multiplicand= -2   Multiplier= -5   Product=  10   Done=1 : Correct Result
+# 
+#  time=26290000   Multiplicand= -2   Multiplier= -4   Product=   8   Done=1 : Correct Result
+# 
+#  time=26570000   Multiplicand= -2   Multiplier= -3   Product=   6   Done=1 : Correct Result
+# 
+#  time=26810000   Multiplicand= -2   Multiplier= -2   Product=   4   Done=1 : Correct Result
+# 
+#  time=27050000   Multiplicand= -2   Multiplier= -1   Product=   2   Done=1 : Correct Result
+# 
+#  time=27270000   Multiplicand= -2   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=27530000   Multiplicand= -2   Multiplier=  1   Product=  -2   Done=1 : Correct Result
+# 
+#  time=27790000   Multiplicand= -2   Multiplier=  2   Product=  -4   Done=1 : Correct Result
+# 
+#  time=28050000   Multiplicand= -2   Multiplier=  3   Product=  -6   Done=1 : Correct Result
+# 
+#  time=28310000   Multiplicand= -2   Multiplier=  4   Product=  -8   Done=1 : Correct Result
+# 
+#  time=28610000   Multiplicand= -2   Multiplier=  5   Product= -10   Done=1 : Correct Result
+# 
+#  time=28870000   Multiplicand= -2   Multiplier=  6   Product= -12   Done=1 : Correct Result
+# 
+#  time=29130000   Multiplicand= -2   Multiplier=  7   Product= -14   Done=1 : Correct Result
+# 
+#  time=29370000   Multiplicand= -1   Multiplier= -8   Product=   8   Done=1 : Correct Result
+# 
+#  time=29650000   Multiplicand= -1   Multiplier= -7   Product=   7   Done=1 : Correct Result
+# 
+#  time=29930000   Multiplicand= -1   Multiplier= -6   Product=   6   Done=1 : Correct Result
+# 
+#  time=30210000   Multiplicand= -1   Multiplier= -5   Product=   5   Done=1 : Correct Result
+# 
+#  time=30450000   Multiplicand= -1   Multiplier= -4   Product=   4   Done=1 : Correct Result
+# 
+#  time=30730000   Multiplicand= -1   Multiplier= -3   Product=   3   Done=1 : Correct Result
+# 
+#  time=30970000   Multiplicand= -1   Multiplier= -2   Product=   2   Done=1 : Correct Result
+# 
+#  time=31210000   Multiplicand= -1   Multiplier= -1   Product=   1   Done=1 : Correct Result
+# 
+#  time=31430000   Multiplicand= -1   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=31690000   Multiplicand= -1   Multiplier=  1   Product=  -1   Done=1 : Correct Result
+# 
+#  time=31950000   Multiplicand= -1   Multiplier=  2   Product=  -2   Done=1 : Correct Result
+# 
+#  time=32210000   Multiplicand= -1   Multiplier=  3   Product=  -3   Done=1 : Correct Result
+# 
+#  time=32470000   Multiplicand= -1   Multiplier=  4   Product=  -4   Done=1 : Correct Result
+# 
+#  time=32770000   Multiplicand= -1   Multiplier=  5   Product=  -5   Done=1 : Correct Result
+# 
+#  time=33030000   Multiplicand= -1   Multiplier=  6   Product=  -6   Done=1 : Correct Result
+# 
+#  time=33290000   Multiplicand= -1   Multiplier=  7   Product=  -7   Done=1 : Correct Result
+# 
+#  time=33530000   Multiplicand=  0   Multiplier= -8   Product=   0   Done=1 : Correct Result
+# 
+#  time=33810000   Multiplicand=  0   Multiplier= -7   Product=   0   Done=1 : Correct Result
+# 
+#  time=34090000   Multiplicand=  0   Multiplier= -6   Product=   0   Done=1 : Correct Result
+# 
+#  time=34370000   Multiplicand=  0   Multiplier= -5   Product=   0   Done=1 : Correct Result
+# 
+#  time=34610000   Multiplicand=  0   Multiplier= -4   Product=   0   Done=1 : Correct Result
+# 
+#  time=34890000   Multiplicand=  0   Multiplier= -3   Product=   0   Done=1 : Correct Result
+# 
+#  time=35130000   Multiplicand=  0   Multiplier= -2   Product=   0   Done=1 : Correct Result
+# 
+#  time=35370000   Multiplicand=  0   Multiplier= -1   Product=   0   Done=1 : Correct Result
+# 
+#  time=35590000   Multiplicand=  0   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=35850000   Multiplicand=  0   Multiplier=  1   Product=   0   Done=1 : Correct Result
+# 
+#  time=36110000   Multiplicand=  0   Multiplier=  2   Product=   0   Done=1 : Correct Result
+# 
+#  time=36370000   Multiplicand=  0   Multiplier=  3   Product=   0   Done=1 : Correct Result
+# 
+#  time=36630000   Multiplicand=  0   Multiplier=  4   Product=   0   Done=1 : Correct Result
+# 
+#  time=36930000   Multiplicand=  0   Multiplier=  5   Product=   0   Done=1 : Correct Result
+# 
+#  time=37190000   Multiplicand=  0   Multiplier=  6   Product=   0   Done=1 : Correct Result
+# 
+#  time=37450000   Multiplicand=  0   Multiplier=  7   Product=   0   Done=1 : Correct Result
+# 
+#  time=37690000   Multiplicand=  1   Multiplier= -8   Product=  -8   Done=1 : Correct Result
+# 
+#  time=37970000   Multiplicand=  1   Multiplier= -7   Product=  -7   Done=1 : Correct Result
+# 
+#  time=38250000   Multiplicand=  1   Multiplier= -6   Product=  -6   Done=1 : Correct Result
+# 
+#  time=38530000   Multiplicand=  1   Multiplier= -5   Product=  -5   Done=1 : Correct Result
+# 
+#  time=38770000   Multiplicand=  1   Multiplier= -4   Product=  -4   Done=1 : Correct Result
+# 
+#  time=39050000   Multiplicand=  1   Multiplier= -3   Product=  -3   Done=1 : Correct Result
+# 
+#  time=39290000   Multiplicand=  1   Multiplier= -2   Product=  -2   Done=1 : Correct Result
+# 
+#  time=39530000   Multiplicand=  1   Multiplier= -1   Product=  -1   Done=1 : Correct Result
+# 
+#  time=39750000   Multiplicand=  1   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=40010000   Multiplicand=  1   Multiplier=  1   Product=   1   Done=1 : Correct Result
+# 
+#  time=40270000   Multiplicand=  1   Multiplier=  2   Product=   2   Done=1 : Correct Result
+# 
+#  time=40530000   Multiplicand=  1   Multiplier=  3   Product=   3   Done=1 : Correct Result
+# 
+#  time=40790000   Multiplicand=  1   Multiplier=  4   Product=   4   Done=1 : Correct Result
+# 
+#  time=41090000   Multiplicand=  1   Multiplier=  5   Product=   5   Done=1 : Correct Result
+# 
+#  time=41350000   Multiplicand=  1   Multiplier=  6   Product=   6   Done=1 : Correct Result
+# 
+#  time=41610000   Multiplicand=  1   Multiplier=  7   Product=   7   Done=1 : Correct Result
+# 
+#  time=41850000   Multiplicand=  2   Multiplier= -8   Product= -16   Done=1 : Correct Result
+# 
+#  time=42130000   Multiplicand=  2   Multiplier= -7   Product= -14   Done=1 : Correct Result
+# 
+#  time=42410000   Multiplicand=  2   Multiplier= -6   Product= -12   Done=1 : Correct Result
+# 
+#  time=42690000   Multiplicand=  2   Multiplier= -5   Product= -10   Done=1 : Correct Result
+# 
+#  time=42930000   Multiplicand=  2   Multiplier= -4   Product=  -8   Done=1 : Correct Result
+# 
+#  time=43210000   Multiplicand=  2   Multiplier= -3   Product=  -6   Done=1 : Correct Result
+# 
+#  time=43450000   Multiplicand=  2   Multiplier= -2   Product=  -4   Done=1 : Correct Result
+# 
+#  time=43690000   Multiplicand=  2   Multiplier= -1   Product=  -2   Done=1 : Correct Result
+# 
+#  time=43910000   Multiplicand=  2   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=44170000   Multiplicand=  2   Multiplier=  1   Product=   2   Done=1 : Correct Result
+# 
+#  time=44430000   Multiplicand=  2   Multiplier=  2   Product=   4   Done=1 : Correct Result
+# 
+#  time=44690000   Multiplicand=  2   Multiplier=  3   Product=   6   Done=1 : Correct Result
+# 
+#  time=44950000   Multiplicand=  2   Multiplier=  4   Product=   8   Done=1 : Correct Result
+# 
+#  time=45250000   Multiplicand=  2   Multiplier=  5   Product=  10   Done=1 : Correct Result
+# 
+#  time=45510000   Multiplicand=  2   Multiplier=  6   Product=  12   Done=1 : Correct Result
+# 
+#  time=45770000   Multiplicand=  2   Multiplier=  7   Product=  14   Done=1 : Correct Result
+# 
+#  time=46010000   Multiplicand=  3   Multiplier= -8   Product= -24   Done=1 : Correct Result
+# 
+#  time=46290000   Multiplicand=  3   Multiplier= -7   Product= -21   Done=1 : Correct Result
+# 
+#  time=46570000   Multiplicand=  3   Multiplier= -6   Product= -18   Done=1 : Correct Result
+# 
+#  time=46850000   Multiplicand=  3   Multiplier= -5   Product= -15   Done=1 : Correct Result
+# 
+#  time=47090000   Multiplicand=  3   Multiplier= -4   Product= -12   Done=1 : Correct Result
+# 
+#  time=47370000   Multiplicand=  3   Multiplier= -3   Product=  -9   Done=1 : Correct Result
+# 
+#  time=47610000   Multiplicand=  3   Multiplier= -2   Product=  -6   Done=1 : Correct Result
+# 
+#  time=47850000   Multiplicand=  3   Multiplier= -1   Product=  -3   Done=1 : Correct Result
+# 
+#  time=48070000   Multiplicand=  3   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=48330000   Multiplicand=  3   Multiplier=  1   Product=   3   Done=1 : Correct Result
+# 
+#  time=48590000   Multiplicand=  3   Multiplier=  2   Product=   6   Done=1 : Correct Result
+# 
+#  time=48850000   Multiplicand=  3   Multiplier=  3   Product=   9   Done=1 : Correct Result
+# 
+#  time=49110000   Multiplicand=  3   Multiplier=  4   Product=  12   Done=1 : Correct Result
+# 
+#  time=49410000   Multiplicand=  3   Multiplier=  5   Product=  15   Done=1 : Correct Result
+# 
+#  time=49670000   Multiplicand=  3   Multiplier=  6   Product=  18   Done=1 : Correct Result
+# 
+#  time=49930000   Multiplicand=  3   Multiplier=  7   Product=  21   Done=1 : Correct Result
+# 
+#  time=50170000   Multiplicand=  4   Multiplier= -8   Product= -32   Done=1 : Correct Result
+# 
+#  time=50450000   Multiplicand=  4   Multiplier= -7   Product= -28   Done=1 : Correct Result
+# 
+#  time=50730000   Multiplicand=  4   Multiplier= -6   Product= -24   Done=1 : Correct Result
+# 
+#  time=51010000   Multiplicand=  4   Multiplier= -5   Product= -20   Done=1 : Correct Result
+# 
+#  time=51250000   Multiplicand=  4   Multiplier= -4   Product= -16   Done=1 : Correct Result
+# 
+#  time=51530000   Multiplicand=  4   Multiplier= -3   Product= -12   Done=1 : Correct Result
+# 
+#  time=51770000   Multiplicand=  4   Multiplier= -2   Product=  -8   Done=1 : Correct Result
+# 
+#  time=52010000   Multiplicand=  4   Multiplier= -1   Product=  -4   Done=1 : Correct Result
+# 
+#  time=52230000   Multiplicand=  4   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=52490000   Multiplicand=  4   Multiplier=  1   Product=   4   Done=1 : Correct Result
+# 
+#  time=52750000   Multiplicand=  4   Multiplier=  2   Product=   8   Done=1 : Correct Result
+# 
+#  time=53010000   Multiplicand=  4   Multiplier=  3   Product=  12   Done=1 : Correct Result
+# 
+#  time=53270000   Multiplicand=  4   Multiplier=  4   Product=  16   Done=1 : Correct Result
+# 
+#  time=53570000   Multiplicand=  4   Multiplier=  5   Product=  20   Done=1 : Correct Result
+# 
+#  time=53830000   Multiplicand=  4   Multiplier=  6   Product=  24   Done=1 : Correct Result
+# 
+#  time=54090000   Multiplicand=  4   Multiplier=  7   Product=  28   Done=1 : Correct Result
+# 
+#  time=54330000   Multiplicand=  5   Multiplier= -8   Product= -40   Done=1 : Correct Result
+# 
+#  time=54610000   Multiplicand=  5   Multiplier= -7   Product= -35   Done=1 : Correct Result
+# 
+#  time=54890000   Multiplicand=  5   Multiplier= -6   Product= -30   Done=1 : Correct Result
+# 
+#  time=55170000   Multiplicand=  5   Multiplier= -5   Product= -25   Done=1 : Correct Result
+# 
+#  time=55410000   Multiplicand=  5   Multiplier= -4   Product= -20   Done=1 : Correct Result
+# 
+#  time=55690000   Multiplicand=  5   Multiplier= -3   Product= -15   Done=1 : Correct Result
+# 
+#  time=55930000   Multiplicand=  5   Multiplier= -2   Product= -10   Done=1 : Correct Result
+# 
+#  time=56170000   Multiplicand=  5   Multiplier= -1   Product=  -5   Done=1 : Correct Result
+# 
+#  time=56390000   Multiplicand=  5   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=56650000   Multiplicand=  5   Multiplier=  1   Product=   5   Done=1 : Correct Result
+# 
+#  time=56910000   Multiplicand=  5   Multiplier=  2   Product=  10   Done=1 : Correct Result
+# 
+#  time=57170000   Multiplicand=  5   Multiplier=  3   Product=  15   Done=1 : Correct Result
+# 
+#  time=57430000   Multiplicand=  5   Multiplier=  4   Product=  20   Done=1 : Correct Result
+# 
+#  time=57730000   Multiplicand=  5   Multiplier=  5   Product=  25   Done=1 : Correct Result
+# 
+#  time=57990000   Multiplicand=  5   Multiplier=  6   Product=  30   Done=1 : Correct Result
+# 
+#  time=58250000   Multiplicand=  5   Multiplier=  7   Product=  35   Done=1 : Correct Result
+# 
+#  time=58490000   Multiplicand=  6   Multiplier= -8   Product= -48   Done=1 : Correct Result
+# 
+#  time=58770000   Multiplicand=  6   Multiplier= -7   Product= -42   Done=1 : Correct Result
+# 
+#  time=59050000   Multiplicand=  6   Multiplier= -6   Product= -36   Done=1 : Correct Result
+# 
+#  time=59330000   Multiplicand=  6   Multiplier= -5   Product= -30   Done=1 : Correct Result
+# 
+#  time=59570000   Multiplicand=  6   Multiplier= -4   Product= -24   Done=1 : Correct Result
+# 
+#  time=59850000   Multiplicand=  6   Multiplier= -3   Product= -18   Done=1 : Correct Result
+# 
+#  time=60090000   Multiplicand=  6   Multiplier= -2   Product= -12   Done=1 : Correct Result
+# 
+#  time=60330000   Multiplicand=  6   Multiplier= -1   Product=  -6   Done=1 : Correct Result
+# 
+#  time=60550000   Multiplicand=  6   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=60810000   Multiplicand=  6   Multiplier=  1   Product=   6   Done=1 : Correct Result
+# 
+#  time=61070000   Multiplicand=  6   Multiplier=  2   Product=  12   Done=1 : Correct Result
+# 
+#  time=61330000   Multiplicand=  6   Multiplier=  3   Product=  18   Done=1 : Correct Result
+# 
+#  time=61590000   Multiplicand=  6   Multiplier=  4   Product=  24   Done=1 : Correct Result
+# 
+#  time=61890000   Multiplicand=  6   Multiplier=  5   Product=  30   Done=1 : Correct Result
+# 
+#  time=62150000   Multiplicand=  6   Multiplier=  6   Product=  36   Done=1 : Correct Result
+# 
+#  time=62410000   Multiplicand=  6   Multiplier=  7   Product=  42   Done=1 : Correct Result
+# 
+#  time=62650000   Multiplicand=  7   Multiplier= -8   Product= -56   Done=1 : Correct Result
+# 
+#  time=62930000   Multiplicand=  7   Multiplier= -7   Product= -49   Done=1 : Correct Result
+# 
+#  time=63210000   Multiplicand=  7   Multiplier= -6   Product= -42   Done=1 : Correct Result
+# 
+#  time=63490000   Multiplicand=  7   Multiplier= -5   Product= -35   Done=1 : Correct Result
+# 
+#  time=63730000   Multiplicand=  7   Multiplier= -4   Product= -28   Done=1 : Correct Result
+# 
+#  time=64010000   Multiplicand=  7   Multiplier= -3   Product= -21   Done=1 : Correct Result
+# 
+#  time=64250000   Multiplicand=  7   Multiplier= -2   Product= -14   Done=1 : Correct Result
+# 
+#  time=64490000   Multiplicand=  7   Multiplier= -1   Product=  -7   Done=1 : Correct Result
+# 
+#  time=64710000   Multiplicand=  7   Multiplier=  0   Product=   0   Done=1 : Correct Result
+# 
+#  time=64970000   Multiplicand=  7   Multiplier=  1   Product=   7   Done=1 : Correct Result
+# 
+#  time=65230000   Multiplicand=  7   Multiplier=  2   Product=  14   Done=1 : Correct Result
+# 
+#  time=65490000   Multiplicand=  7   Multiplier=  3   Product=  21   Done=1 : Correct Result
+# 
+#  time=65750000   Multiplicand=  7   Multiplier=  4   Product=  28   Done=1 : Correct Result
+# 
+#  time=66050000   Multiplicand=  7   Multiplier=  5   Product=  35   Done=1 : Correct Result
+# 
+#  time=66310000   Multiplicand=  7   Multiplier=  6   Product=  42   Done=1 : Correct Result
+# 
+#  time=66570000   Multiplicand=  7   Multiplier=  7   Product=  49   Done=1 : Correct Result
+# 
+# Error Count = 0, Test Passed !
+# 
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/booth_multiplier/booth_multiplier_testbench.sv(102)
+#    Time: 66800 ns  Iteration: 0  Instance: /booth_multiplier_testbench
+# 1
+# Break in Module booth_multiplier_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/booth_multiplier/booth_multiplier_testbench.sv line 102
+# End time: 00:28:52 on Aug 26,2025, Elapsed time: 0:06:20
+# Errors: 0, Warnings: 3

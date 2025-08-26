@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_mealy
+vvending_machine_moore
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1756081545
+!i10b 1
+!s100 BGI5mP^D=;KYkGgf]eQ[c1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ImnA0kE8K33hdkddLffACG2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore
+w1756081540
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore.sv
+!i122 17
+L0 2 51
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1756081545.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vvending_machine_moore_testbench
+R0
+R1
+!i10b 1
+!s100 3[>[DE]eXd=g0]X@giF0i3
+R2
+Io]k81gzPMK97Z02X9fdCn3
+R3
+S1
+R4
+w1756076672
+8C:\Users\Jaspe\repositories\ECE 111 Lab HW\Homework6\Lab6\vending_machine\vending_machine_moore\vending_machine_moore_testbench.sv
+FC:\Users\Jaspe\repositories\ECE 111 Lab HW\Homework6\Lab6\vending_machine\vending_machine_moore\vending_machine_moore_testbench.sv
+!i122 18
+L0 3 90
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\Users\Jaspe\repositories\ECE 111 Lab HW\Homework6\Lab6\vending_machine\vending_machine_moore\vending_machine_moore_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Jaspe\repositories\ECE 111 Lab HW\Homework6\Lab6\vending_machine\vending_machine_moore\vending_machine_moore_testbench.sv|
+!i113 1
+R7
+R8

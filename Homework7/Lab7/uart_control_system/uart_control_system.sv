@@ -23,13 +23,13 @@ logic rx_done;
 uart_tx_control #(.NUM_OF_BYTES(NUM_OF_BYTES)) tx_control_fsm(
   .clk(clock),
   .rstn(rstn), 
-  .mem_read_data(  ), // connect to mem_read_data input primary port
-  .mem_read_addr(  ), // connect to mem_read_addr output primary port
-  .mem_read_enable(  ), // connect to mem_read_enable output primary port
-  .transmission_done(  ), // connect to transmission_done output primary port
-  .uart_tx_done(  ), // connect to tx_done coming from uart_top module instance
-  .uart_tx_data(  ), // connect to tx_data going into uart_top module instance
-  .uart_tx_start(  ), // connect to tx_start going into uart_top module instance
+  .mem_read_data(mem_read_data), // connect to mem_read_data input primary port
+  .mem_read_addr(mem_read_addr), // connect to mem_read_addr output primary port
+  .mem_read_enable(mem_read_enable), // connect to mem_read_enable output primary port
+  .transmission_done(transmission_done), // connect to transmission_done output primary port
+  .uart_tx_done(tx_done), // connect to tx_done coming from uart_top module instance
+  .uart_tx_data(tx_data), // connect to tx_data going into uart_top module instance
+  .uart_tx_start(tx_start) // connect to tx_start going into uart_top module instance
 );
 
 // Instantiate UART RX CONTROL Module
@@ -37,12 +37,12 @@ uart_tx_control #(.NUM_OF_BYTES(NUM_OF_BYTES)) tx_control_fsm(
 uart_rx_control #(.NUM_OF_BYTES(NUM_OF_BYTES)) rx_control_fsm(
   .clk(clock),
   .rstn(rstn), 
-  .mem_write_data(  ),  // connect to mem_write_data output primary port
-  .mem_write_addr(  ),  // connect to mem_write_addr output primary port
-  .mem_write_enable(  ), // connect to mem_write_enable output primary port
-  .message_received(  ),  // connect to message_received output primary port
-  .uart_rx_done(  ), // connect to rx_done coming from uart_top module instance
-  .uart_rx_data(  ), // connect to rx_data coming from uart_top module instance
+  .mem_write_data(mem_write_data),  // connect to mem_write_data output primary port
+  .mem_write_addr(mem_write_addr),  // connect to mem_write_addr output primary port
+  .mem_write_enable(mem_write_enable), // connect to mem_write_enable output primary port
+  .message_received(message_received),  // connect to message_received output primary port
+  .uart_rx_done(rx_done), // connect to rx_done coming from uart_top module instance
+  .uart_rx_data(rx_data) // connect to rx_data coming from uart_top module instance
 );
 
 // Instantiate UART TOP Module

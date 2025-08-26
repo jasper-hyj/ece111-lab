@@ -1,0 +1,180 @@
+# Compile of uart_tx.sv was successful.
+# Compile of uart_rx.sv was successful.
+# Compile of uart_top.sv failed with 2 errors.
+# Compile of uart_top_testbench.sv was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of uart_tx.sv was successful.
+# Compile of uart_rx.sv was successful.
+# Compile of uart_top.sv was successful.
+# Compile of uart_top_testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.uart_top_testbench
+# vsim -gui work.uart_top_testbench 
+# Start time: 16:58:05 on Aug 25,2025
+# Loading sv_std.std
+# Loading work.uart_top_testbench
+# Loading work.uart_top
+# Loading work.uart_tx
+# Loading work.uart_rx
+add wave -position end  sim:/uart_top_testbench/CLK_PERIOD_NS
+add wave -position end  sim:/uart_top_testbench/NUM_SERIAL_BITS
+add wave -position end  sim:/uart_top_testbench/NUM_CLKS_PER_BIT
+add wave -position end  sim:/uart_top_testbench/TRANSMIT_TIME
+add wave -position end  sim:/uart_top_testbench/clock
+add wave -position end  sim:/uart_top_testbench/clock_by_n
+add wave -position end  sim:/uart_top_testbench/rstn
+add wave -position end  sim:/uart_top_testbench/start
+add wave -position end  sim:/uart_top_testbench/done
+add wave -position end  sim:/uart_top_testbench/ready
+add wave -position end  sim:/uart_top_testbench/din
+add wave -position end  sim:/uart_top_testbench/dout
+add wave -position end  sim:/uart_top_testbench/byte_data
+add wave -position end  sim:/uart_top_testbench/index
+add wave -position end  sim:/uart_top_testbench/DUT/NUM_CLKS_PER_BIT
+add wave -position end  sim:/uart_top_testbench/DUT/tx_clk
+add wave -position end  sim:/uart_top_testbench/DUT/tx_rstn
+add wave -position end  sim:/uart_top_testbench/DUT/rx_clk
+add wave -position end  sim:/uart_top_testbench/DUT/rx_rstn
+add wave -position end  sim:/uart_top_testbench/DUT/tx_din
+add wave -position end  sim:/uart_top_testbench/DUT/tx_start
+add wave -position end  sim:/uart_top_testbench/DUT/tx_done
+add wave -position end  sim:/uart_top_testbench/DUT/rx_done
+add wave -position end  sim:/uart_top_testbench/DUT/rx_dout
+add wave -position end  sim:/uart_top_testbench/DUT/serial_data_bit
+run -all
+# Test Passed - Correct Byte Received time=                3150  expected=a5   actual=a5
+# Test Passed - Correct Byte Received time=                6430  expected=a8   actual=a8
+# Test Passed - Correct Byte Received time=                9710  expected=ab   actual=ab
+# Test Passed - Correct Byte Received time=               12990  expected=ae   actual=ae
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_top/uart_top_testbench.sv(109)
+#    Time: 13650 ns  Iteration: 0  Instance: /uart_top_testbench
+# 1
+# Break in Module uart_top_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_top/uart_top_testbench.sv line 109
+# Break key hit
+quit -sim
+# End time: 17:51:42 on Aug 25,2025, Elapsed time: 0:53:37
+# Errors: 0, Warnings: 8
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project uart_control_system
+# Compile of uart_control_system.sv failed with 2 errors.
+# Compile of uart_control_system_testbench.sv was successful.
+# Compile of uart_rx.sv was successful.
+# Compile of uart_rx_control.sv failed with 2 errors.
+# Compile of uart_top.sv was successful.
+# Compile of uart_tx.sv was successful.
+# Compile of uart_tx_control.sv was successful.
+# 7 compiles, 2 failed with 4 errors.
+# Compile of uart_control_system.sv was successful.
+# Compile of uart_control_system_testbench.sv was successful.
+# Compile of uart_rx.sv was successful.
+# Compile of uart_rx_control.sv failed with 2 errors.
+# Compile of uart_top.sv was successful.
+# Compile of uart_tx.sv was successful.
+# Compile of uart_tx_control.sv was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of uart_control_system.sv was successful.
+# Compile of uart_control_system_testbench.sv was successful.
+# Compile of uart_rx.sv was successful.
+# Compile of uart_rx_control.sv was successful.
+# Compile of uart_top.sv was successful.
+# Compile of uart_tx.sv was successful.
+# Compile of uart_tx_control.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.uart_control_system_testbench
+# vsim -gui work.uart_control_system_testbench 
+# Start time: 17:53:38 on Aug 25,2025
+# Loading sv_std.std
+# Loading work.uart_control_system_testbench
+# Loading work.uart_control_system
+# Loading work.uart_tx_control
+# Loading work.uart_rx_control
+# Loading work.uart_top
+# Loading work.uart_tx
+# Loading work.uart_rx
+add wave -position end  sim:/uart_control_system_testbench/DUT/NUM_CLKS_PER_BIT
+add wave -position end  sim:/uart_control_system_testbench/DUT/NUM_OF_BYTES
+add wave -position end  sim:/uart_control_system_testbench/DUT/clock
+add wave -position end  sim:/uart_control_system_testbench/DUT/rstn
+add wave -position end  sim:/uart_control_system_testbench/DUT/mem_write_addr
+add wave -position end  sim:/uart_control_system_testbench/DUT/mem_write_data
+add wave -position end  sim:/uart_control_system_testbench/DUT/mem_write_enable
+add wave -position end  sim:/uart_control_system_testbench/DUT/mem_read_data
+add wave -position end  sim:/uart_control_system_testbench/DUT/mem_read_addr
+add wave -position end  sim:/uart_control_system_testbench/DUT/mem_read_enable
+add wave -position end  sim:/uart_control_system_testbench/DUT/transmission_done
+add wave -position end  sim:/uart_control_system_testbench/DUT/message_received
+add wave -position end  sim:/uart_control_system_testbench/DUT/tx_start
+add wave -position end  sim:/uart_control_system_testbench/DUT/tx_done
+add wave -position end  sim:/uart_control_system_testbench/DUT/tx_data
+add wave -position end  sim:/uart_control_system_testbench/DUT/rx_data
+add wave -position end  sim:/uart_control_system_testbench/DUT/rx_done
+add wave -position end  sim:/uart_control_system_testbench/ram
+add wave -position end  sim:/uart_control_system_testbench/rom
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 13070ns
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+restart -f
+run 14000 ns
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+restart -f
+run 14000 ns
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+restart -f
+# Compile of uart_control_system.sv was successful.
+# Compile of uart_control_system_testbench.sv was successful.
+# Compile of uart_rx.sv was successful.
+# Compile of uart_rx_control.sv was successful.
+# Compile of uart_top.sv was successful.
+# Compile of uart_tx.sv was successful.
+# Compile of uart_tx_control.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.uart_control_system_testbench
+# Loading work.uart_control_system
+# Loading work.uart_tx_control
+# Loading work.uart_rx_control
+# Loading work.uart_top
+# Loading work.uart_tx
+# Loading work.uart_rx
+run 14000 ns
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# Test Passed - Correct Byte 0 Received time=12980 ns  expected byte data=a5   actual byte data=a5
+# Test Passed - Correct Byte 1 Received time=12980 ns  expected byte data=a8   actual byte data=a8
+# Test Passed - Correct Byte 2 Received time=12980 ns  expected byte data=ab   actual byte data=ab
+# Test Passed - Correct Byte 3 Received time=12980 ns  expected byte data=ae   actual byte data=ae
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system_testbench.sv(134)
+#    Time: 13070 ns  Iteration: 1  Instance: /uart_control_system_testbench
+# 1
+# Break in Module uart_control_system_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system_testbench.sv line 134
+run 14000 ns
+# Test Passed - Correct Byte 0 Received time=25940 ns  expected byte data=a5   actual byte data=a5
+# Test Passed - Correct Byte 1 Received time=25940 ns  expected byte data=a8   actual byte data=a8
+# Test Passed - Correct Byte 2 Received time=25940 ns  expected byte data=ab   actual byte data=ab
+# Test Passed - Correct Byte 3 Received time=25940 ns  expected byte data=ae   actual byte data=ae
+restart -f
+run 14000 ns
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# Test Passed - Correct Byte 0 Received time=12980 ns  expected byte data=a5   actual byte data=a5
+# Test Passed - Correct Byte 1 Received time=12980 ns  expected byte data=a8   actual byte data=a8
+# Test Passed - Correct Byte 2 Received time=12980 ns  expected byte data=ab   actual byte data=ab
+# Test Passed - Correct Byte 3 Received time=12980 ns  expected byte data=ae   actual byte data=ae
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system_testbench.sv(134)
+#    Time: 13070 ns  Iteration: 1  Instance: /uart_control_system_testbench
+# 1
+# Break in Module uart_control_system_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework7/Lab7/uart_control_system/uart_control_system_testbench.sv line 134
+quit -sim
+# End time: 18:02:43 on Aug 25,2025, Elapsed time: 0:09:05
+# Errors: 0, Warnings: 2

@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tx_done",
+					"strict" : false
+				},
+				{
+					"name" : "rx_done",
+					"strict" : false
+				},
+				{
+					"name" : "rx_dout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rx_dout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rx_dout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rx_dout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rx_dout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rx_dout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rx_dout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rx_dout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_rstn",
+					"strict" : false
+				},
+				{
+					"name" : "tx_clk",
+					"strict" : false
+				},
+				{
+					"name" : "rx_clk",
+					"strict" : false
+				},
+				{
+					"name" : "rx_rstn",
+					"strict" : false
+				},
+				{
+					"name" : "tx_start",
+					"strict" : false
+				},
+				{
+					"name" : "tx_din[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_din[7]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_din[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_din[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_din[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_din[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_din[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_din[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

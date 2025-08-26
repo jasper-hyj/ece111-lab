@@ -60,18 +60,20 @@ always_ff@(posedge clk) begin
      // If all data bytes transmitted then move to IDLE state and reset mem_read_enable to 0
      // otherwise read next data byte from ROM memory in testbench and then move to DELAY sate
      READ: begin
-       if(j < NUM_OF_BYTES) begin
-        
-         // Student to add code here
-         // Note : Do not have mem_read_addr = mem_read_addr + 1 instead assign j to mem_read_addr
-         // as 'j' has been already incremented in wait state and new value is available to indicate next read address
-        
-       end
-       else begin
- 
-         // Student to add code here
-
-       end
+        if(j < NUM_OF_BYTES) begin
+          
+          // Student to add code here
+          // Note : Do not have mem_read_addr = mem_read_addr + 1 instead assign j to mem_read_addr
+          // as 'j' has been already incremented in wait state and new value is available to indicate next read address
+          mem_read_addr <= j;
+          mem_read_enable <= 1;
+          state <= DELAY;
+        end
+        else begin
+            // Student to add code here
+            state <= IDLE;
+            mem_read_enable <= 0;
+        end
      end
      
      // Important : ROM/RAM memory will take 1 cycle to provide data on mem_read_data
@@ -80,7 +82,7 @@ always_ff@(posedge clk) begin
      // before read data byte is further sent by uart_tx_control FSM to uart_tx input din port
      // Then move to TRANSMIT state
      DELAY: begin
-      state<=TRANSMIT;
+      state <= TRANSMIT;
      end
      
      // Indicate uart_tx FSM that din data bye is available for transmission and
@@ -88,34 +90,34 @@ always_ff@(posedge clk) begin
      // To do this, set uart_tx_start to '1' and pass mem_read_data to uart_tx_data   
      // Then move to WAIT state
      TRANSMIT: begin
-
-         // Student to add code here
-
-     end
+        // Student to add code here
+        uart_tx_data <= mem_read_data;
+        uart_tx_start <= 1;
+        state <= WAIT;
+      end
      
-     // Wait until uart_tx has completed serial transmission of data byte to uart_rx
-     // To achieve this wait for uart_tx_done == 1 which is coming from uart_tx to uart_tx_control FSM
-     // And then increment 'j' by '1' to indicate 1 data byte has been sent to uart_rx
-     // Then move to READ sate if uart_tx_done is '1' otherwise state in WAIT state 
-     // until uart_tx_done from uart_tx FSM is '1'
-     WAIT: begin
-       if(uart_tx_done == 1) begin
-                   
-         // Student to add code here
-         // Remember to increment j <= j + 1 here
+      // Wait until uart_tx has completed serial transmission of data byte to uart_rx
+      // To achieve this wait for uart_tx_done == 1 which is coming from uart_tx to uart_tx_control FSM
+      // And then increment 'j' by '1' to indicate 1 data byte has been sent to uart_rx
+      // Then move to READ sate if uart_tx_done is '1' otherwise state in WAIT state 
+      // until uart_tx_done from uart_tx FSM is '1'
+      WAIT: begin
+        if(uart_tx_done == 1) begin
+          // Student to add code here
+          // Remember to increment j <= j + 1 here
+          j <= j + 1;
+          state <= READ;
+        end
+        else begin
+          // Student to add code here
+          state <= WAIT;
+        end
+      end
 
-       end
-       else begin
-        
-         // Student to add code here        
-
-       end
-     end
-
-     // In Default state move to IDLE state	  
-     default: begin
-        state <= IDLE;
-     end
+      // In Default state move to IDLE state	  
+      default: begin
+          state <= IDLE;
+      end
   endcase
  end
 end

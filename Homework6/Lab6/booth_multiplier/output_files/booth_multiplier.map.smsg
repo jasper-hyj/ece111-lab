@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at booth_multiplier.sv(11): object "done" differs only in case from object "DONE" in the same scope File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/booth_multiplier/booth_multiplier.sv Line: 11

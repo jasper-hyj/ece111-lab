@@ -1,0 +1,14 @@
+
+State Machine - |uart_rx|state
+Name state.RX_STOP_BIT state.RX_DATA_BIT7 state.RX_DATA_BIT6 state.RX_DATA_BIT5 state.RX_DATA_BIT4 state.RX_DATA_BIT3 state.RX_DATA_BIT2 state.RX_DATA_BIT1 state.RX_DATA_BIT0 state.RX_START_BIT state.RX_IDLE 
+state.RX_IDLE 0 0 0 0 0 0 0 0 0 0 0 
+state.RX_START_BIT 0 0 0 0 0 0 0 0 0 1 1 
+state.RX_DATA_BIT0 0 0 0 0 0 0 0 0 1 0 1 
+state.RX_DATA_BIT1 0 0 0 0 0 0 0 1 0 0 1 
+state.RX_DATA_BIT2 0 0 0 0 0 0 1 0 0 0 1 
+state.RX_DATA_BIT3 0 0 0 0 0 1 0 0 0 0 1 
+state.RX_DATA_BIT4 0 0 0 0 1 0 0 0 0 0 1 
+state.RX_DATA_BIT5 0 0 0 1 0 0 0 0 0 0 1 
+state.RX_DATA_BIT6 0 0 1 0 0 0 0 0 0 0 1 
+state.RX_DATA_BIT7 0 1 0 0 0 0 0 0 0 0 1 
+state.RX_STOP_BIT 1 0 0 0 0 0 0 0 0 0 1 

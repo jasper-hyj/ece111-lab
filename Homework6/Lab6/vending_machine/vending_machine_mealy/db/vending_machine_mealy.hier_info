@@ -1,0 +1,14 @@
+|vending_machine_mealy
+clk => r_D.CLK
+clk => r_N.CLK
+clk => present_state~1.DATAIN
+rstn => present_state.OUTPUTSELECT
+rstn => present_state.OUTPUTSELECT
+rstn => present_state.OUTPUTSELECT
+rstn => r_N.OUTPUTSELECT
+rstn => r_D.OUTPUTSELECT
+N => r_N.DATAA
+D => r_D.DATAA
+open <= Selector3.DB_MAX_OUTPUT_PORT_TYPE
+
+

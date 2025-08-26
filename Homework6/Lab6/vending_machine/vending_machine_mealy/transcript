@@ -1,0 +1,160 @@
+# Compile of vending_machine_moore.sv failed with 10 errors.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 1 failed with 10 errors.
+# Compile of vending_machine_moore.sv was successful.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.vending_machine_moore_testbench
+# vsim -gui work.vending_machine_moore_testbench 
+# Start time: 17:04:17 on Aug 24,2025
+# Loading sv_std.std
+# Loading work.vending_machine_moore_testbench
+# Loading work.vending_machine_moore
+run -all
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+add wave -position end  sim:/vending_machine_moore_testbench/clock
+add wave -position end  sim:/vending_machine_moore_testbench/rstn
+add wave -position end  sim:/vending_machine_moore_testbench/N
+add wave -position end  sim:/vending_machine_moore_testbench/D
+add wave -position end  sim:/vending_machine_moore_testbench/open
+add wave -position end  sim:/vending_machine_moore_testbench/DUT/clk
+add wave -position end  sim:/vending_machine_moore_testbench/DUT/rstn
+add wave -position end  sim:/vending_machine_moore_testbench/DUT/N
+add wave -position end  sim:/vending_machine_moore_testbench/DUT/D
+add wave -position end  sim:/vending_machine_moore_testbench/DUT/open
+add wave -position end  sim:/vending_machine_moore_testbench/DUT/present_state
+add wave -position end  sim:/vending_machine_moore_testbench/DUT/next_state
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+# Compile of vending_machine_moore.sv was successful.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.vending_machine_moore_testbench
+# Loading work.vending_machine_moore
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+# Compile of vending_machine_moore.sv was successful.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.vending_machine_moore_testbench
+# Loading work.vending_machine_moore
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+# Compile of vending_machine_moore.sv was successful.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.vending_machine_moore_testbench
+# Loading work.vending_machine_moore
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+# Compile of vending_machine_moore.sv failed with 6 errors.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of vending_machine_moore.sv was successful.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.vending_machine_moore_testbench
+# Loading work.vending_machine_moore
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+# Compile of vending_machine_moore.sv was successful.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.vending_machine_moore_testbench
+# Loading work.vending_machine_moore
+restart -f
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+# Compile of vending_machine_moore.sv was successful.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.vending_machine_moore_testbench
+# Loading work.vending_machine_moore
+restart -f
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+# Compile of vending_machine_moore.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.vending_machine_moore
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+# Compile of vending_machine_moore.sv was successful.
+# Compile of vending_machine_moore_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.vending_machine_moore_testbench
+# Loading work.vending_machine_moore
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# ** Note: $finish    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv(85)
+#    Time: 480 ns  Iteration: 0  Instance: /vending_machine_moore_testbench
+# 1
+# Break in Module vending_machine_moore_testbench at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework6/Lab6/vending_machine/vending_machine_moore/vending_machine_moore_testbench.sv line 85
+# End time: 19:59:28 on Aug 24,2025, Elapsed time: 2:55:11
+# Errors: 0, Warnings: 1
