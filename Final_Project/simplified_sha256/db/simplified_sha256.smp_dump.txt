@@ -1,0 +1,9 @@
+
+State Machine - |simplified_sha256|state
+Name state.WRITE state.COMPUTE state.BLOCK state.READ state.WAIT state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.WAIT 0 0 0 0 1 1 
+state.READ 0 0 0 1 0 1 
+state.BLOCK 0 0 1 0 0 1 
+state.COMPUTE 0 1 0 0 0 1 
+state.WRITE 1 0 0 0 0 1 

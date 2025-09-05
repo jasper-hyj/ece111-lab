@@ -1,0 +1,2323 @@
+# Compile of simplified_sha256.sv failed with 4 errors.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of simplified_sha256.sv failed with 1 errors.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of simplified_sha256.sv failed with 1 errors.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of simplified_sha256.sv failed with 1 errors.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of simplified_sha256.sv was successful.
+vsim -gui work.tb_simplified_sha256
+# vsim -gui work.tb_simplified_sha256 
+# Start time: 23:25:08 on Sep 04,2025
+# Loading sv_std.std
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/NUM_OF_WORDS
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/k
+# Drop insertion failed: sim:/tb_simplified_sha256/simplified_sha256_inst/k
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_simplified_sha256/simplified_sha256_inst/k'.
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/clk
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/reset_n
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/start
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/message_addr
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/output_addr
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/done
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_clk
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_we
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_addr
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_write_data
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_read_data
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/state
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/w
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/message
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/wt
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h0
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h1
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h2
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h3
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h4
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h5
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h6
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h7
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/a
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/b
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/c
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/d
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/e
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/f
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/g
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/i
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/j
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/offset
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/num_blocks
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/cur_we
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/cur_addr
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/cur_write_data
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/memory_block
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/tstep
+run -all
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:          32
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 690 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:          32
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 690 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:          33
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 710 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:          33
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 710 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv failed with 2 errors.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:          33
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 710 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         165
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3350 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:          33
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 710 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv failed with 1 errors.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+restart -f
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = 751d7356	ERROR
+# Correct H[2] = bf129635	Your H[2] = 7f222926	ERROR
+# Correct H[3] = 937c5107	Your H[3] = 2c66beac	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 94c4ec32	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = 5c1d3237	ERROR
+# Correct H[6] = 0318d121	Your H[6] = 42f03128	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 8590fe6b	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = bdd2fbd9	ERROR
+# Correct H[2] = bf129635	Your H[2] = 42623974	ERROR
+# Correct H[3] = 937c5107	Your H[3] = bf129635	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 937c5107	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = f09b6e9e	ERROR
+# Correct H[6] = 0318d121	Your H[6] = 708eb28b	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 0318d121	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = bdd2fbd9	ERROR
+# Correct H[2] = bf129635	Your H[2] = 42623974	ERROR
+# Correct H[3] = 937c5107	Your H[3] = bf129635	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 937c5107	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = f09b6e9e	ERROR
+# Correct H[6] = 0318d121	Your H[6] = 708eb28b	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 0318d121	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = bdd2fbd9	ERROR
+# Correct H[2] = bf129635	Your H[2] = 42623974	ERROR
+# Correct H[3] = 937c5107	Your H[3] = bf129635	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 937c5107	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = f09b6e9e	ERROR
+# Correct H[6] = 0318d121	Your H[6] = 708eb28b	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 0318d121	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = bdd2fbd9	ERROR
+# Correct H[2] = bf129635	Your H[2] = 42623974	ERROR
+# Correct H[3] = 937c5107	Your H[3] = bf129635	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 937c5107	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = f09b6e9e	ERROR
+# Correct H[6] = 0318d121	Your H[6] = 708eb28b	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 0318d121	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = bdd2fbd9	ERROR
+# Correct H[2] = bf129635	Your H[2] = 42623974	ERROR
+# Correct H[3] = 937c5107	Your H[3] = bf129635	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 937c5107	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = f09b6e9e	ERROR
+# Correct H[6] = 0318d121	Your H[6] = 708eb28b	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 0318d121	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  1 hash results are wrong!
+# 
+# Total number of cycles:         167
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3390 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = a827999c	ERROR
+# Correct H[1] = 42623974	Your H[1] = ed9eba14	ERROR
+# Correct H[2] = bf129635	Your H[2] = f1bbcdc8	ERROR
+# Correct H[3] = 937c5107	Your H[3] = 953fd4e8	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 443949fc	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = 6c15a230	ERROR
+# Correct H[6] = 0318d121	Your H[6] = 7e0f66ac	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 6f833464	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = a827999c	ERROR
+# Correct H[1] = 42623974	Your H[1] = ed9eba14	ERROR
+# Correct H[2] = bf129635	Your H[2] = f1bbcdc8	ERROR
+# Correct H[3] = 937c5107	Your H[3] = 953fd4e8	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 443949fc	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = 6c15a230	ERROR
+# Correct H[6] = 0318d121	Your H[6] = 7e0f66ac	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 6f833464	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+restart -f
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = a827999c	ERROR
+# Correct H[1] = 42623974	Your H[1] = ed9eba14	ERROR
+# Correct H[2] = bf129635	Your H[2] = f1bbcdc8	ERROR
+# Correct H[3] = 937c5107	Your H[3] = 953fd4e8	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 443949fc	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = 6c15a230	ERROR
+# Correct H[6] = 0318d121	Your H[6] = 7e0f66ac	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 6f833464	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+restart -f
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# A time value could not be extracted from the current line
+# Compile of simplified_sha256.sv failed with 1 errors.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = xxxxxxxx	ERROR
+# Correct H[1] = 42623974	Your H[1] = xxxxxxxx	ERROR
+# Correct H[2] = bf129635	Your H[2] = xxxxxxxx	ERROR
+# Correct H[3] = 937c5107	Your H[3] = xxxxxxxx	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = xxxxxxxx	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = xxxxxxxx	ERROR
+# Correct H[6] = 0318d121	Your H[6] = xxxxxxxx	ERROR
+# Correct H[7] = 85eca921	Your H[7] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = 882f4ed1	ERROR
+# Correct H[1] = 42623974	Your H[1] = df6e9a87	ERROR
+# Correct H[2] = bf129635	Your H[2] = d768251d	ERROR
+# Correct H[3] = 937c5107	Your H[3] = 461128a7	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = af0ec9eb	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = 1f8dfcf3	ERROR
+# Correct H[6] = 0318d121	Your H[6] = d66d5a33	ERROR
+# Correct H[7] = 85eca921	Your H[7] = c658d272	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = d981fdce	ERROR
+# Correct H[1] = 42623974	Your H[1] = 0339bbbc	ERROR
+# Correct H[2] = bf129635	Your H[2] = fdf29c12	ERROR
+# Correct H[3] = 937c5107	Your H[3] = a0c561dc	ERROR
+# Correct H[4] = f09b6e9e	Your H[4] = 2fd0f511	ERROR
+# Correct H[5] = 708eb28b	Your H[5] = 2e042eb7	ERROR
+# Correct H[6] = 0318d121	Your H[6] = a26aa8c1	ERROR
+# Correct H[7] = 85eca921	Your H[7] = 7b43d8b5	ERROR
+# ***************************
+# 
+# ERROR!  8 hash results are wrong!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_simplified_sha256/simplified_sha256_inst/wt'. 
+restart -f
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_simplified_sha256/simplified_sha256_inst/tstep'. 
+restart -f
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+run -all
+# GetModuleFileName: 指定されたモジュールが見つかりません。
+# 
+# 
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# A time value could not be extracted from the current line
+quit -sim
+# End time: 01:57:20 on Sep 05,2025, Elapsed time: 2:32:12
+# Errors: 0, Warnings: 2
+vsim -gui work.tb_simplified_sha256
+# vsim -gui work.tb_simplified_sha256 
+# Start time: 01:57:36 on Sep 05,2025
+# Loading sv_std.std
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/NUM_OF_WORDS
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/k
+# Drop insertion failed: sim:/tb_simplified_sha256/simplified_sha256_inst/k
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_simplified_sha256/simplified_sha256_inst/k'.
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/clk
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/reset_n
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/start
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/message_addr
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/output_addr
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/done
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_clk
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_we
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_addr
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_write_data
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/mem_read_data
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/state
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/w
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/message
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h0
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h1
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h2
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h3
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h4
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h5
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h6
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h7
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/a
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/b
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/c
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/d
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/e
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/f
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/g
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/h
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/i
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/j
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/offset
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/num_blocks
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/cur_we
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/cur_addr
+add wave -position end  sim:/tb_simplified_sha256/simplified_sha256_inst/cur_write_data
+run -all
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/tb_simplified_sha256.sv line 262
+# End time: 01:59:06 on Sep 05,2025, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 1
