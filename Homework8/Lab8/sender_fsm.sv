@@ -23,48 +23,63 @@ enum logic[1:0]{
 // FSM with single always block for next state, 
 // present state flipflop and output logic 
 always_ff@(posedge src_clk, posedge src_reset) begin
- if(src_reset) begin
-      req_o <= 0;
-      ready <= 0;
-      data_out_en <= 0;
-      state <= IDLE;
- end
- else begin
-  case(state)
-     // Initialize req_o, ready, data_out_en and state
-     // Wait for start == 1 and then transition to req_ouest state
-     IDLE: begin
-  
+  if(src_reset) begin
+    req_o <= 0;
+    ready <= 0;
+    data_out_en <= 0;
+    state <= IDLE;
+  end
+  else begin
+    case(state)
+      // Initialize req_o, ready, data_out_en and state
+      // Wait for start == 1 and then transition to req_ouest state
+      IDLE: begin
         // Student to add code here
-
-     end
-     // Generate req_o = 1 to indicate handshake_rx_fsm that data is available
-     // Generate data_out_en = 1 to data_out_en data buffer and send data to the receiver logic
-     // Generate ready = 0 indicating no new req_ouest data will be accepted by tx_fm until current data is
-     // received by the receiver rx_fsm
-     // Wait for assertion of ack_i from handshake_rx_fsm
-     REQ_ACK_PHASE1: begin
-
+        req_o <= 0;
+        ready <= 1;
+        data_out_en <= 0;
+        if (start) begin
+          state <= REQ_ACK_PHASE1;
+        end else begin
+          state <= IDLE;
+        end
+      end
+      // Generate req_o = 1 to indicate handshake_rx_fsm that data is available
+      // Generate data_out_en = 1 to data_out_en data buffer and send data to the receiver logic
+      // Generate ready = 0 indicating no new req_ouest data will be accepted by tx_fm until current data is
+      // received by the receiver rx_fsm
+      // Wait for assertion of ack_i from handshake_rx_fsm
+      REQ_ACK_PHASE1: begin
         // Student to add code here
-
-
-     end
-     // De-assert buffer data_out_en to 0 to latch current data until it is received by the receiver
-     // Continue to de-asserting of ready to 0 indicating no new data can be accepted by sender_fsm 
-     // Wait for de-assertion of ack_i from handshake_rx_fsm
-     REQ_ACK_PHASE2: begin
-
-
+        req_o <= 1;
+        ready <= 0;
+        data_out_en <= 1;
+        if (ack_i) begin
+          state <= REQ_ACK_PHASE2;
+        end else begin
+          state <= REQ_ACK_PHASE1;
+        end
+      end
+      // De-assert buffer data_out_en to 0 to latch current data until it is received by the receiver
+      // Continue to de-asserting of ready to 0 indicating no new data can be accepted by sender_fsm 
+      // Wait for de-assertion of ack_i from handshake_rx_fsm
+      REQ_ACK_PHASE2: begin
         // Student to add code here
-
-
-     end
-     // In Default state move to IDLE state    
-     default: begin
-        state <= IDLE;
-     end
-  endcase
- end
+        req_o <= 0;
+        ready <= 0;
+        data_out_en <= 0;
+        if (!ack_i) begin
+          state <= IDLE;
+        end else begin
+          state <= REQ_ACK_PHASE2;
+        end
+      end
+      // In Default state move to IDLE state    
+      default: begin
+          state <= IDLE;
+      end
+    endcase
+  end
 end
 
 endmodule : sender_fsm

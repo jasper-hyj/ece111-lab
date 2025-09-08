@@ -1,0 +1,22 @@
+{C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/sender_fsm.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/sender_fsm.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sender_fsm
+
+Top level modules:
+	sender_fsm
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer_testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module handshake_synchronizer_testbench
+
+Top level modules:
+	handshake_synchronizer_testbench
+
+} {} {}} {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module handshake_synchronizer
+
+Top level modules:
+	handshake_synchronizer
+
+} {} {}}

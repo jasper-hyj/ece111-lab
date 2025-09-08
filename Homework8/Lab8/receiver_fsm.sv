@@ -11,43 +11,52 @@ module receiver_fsm(
 
 // state encoding and state variable
 enum logic{
-  ACK_REQ_PHASE1  = 1'b0, // FSM state to assert ack_o = 0, data_in_en = 0 and wait for req_i = 1
-  ACK_REQ_PHASE2  = 1'b1  // FSM state to assert ack_o = 1, data_in_en = 1 and wait for req_i = 0
+   ACK_REQ_PHASE1  = 1'b0, // FSM state to assert ack_o = 0, data_in_en = 0 and wait for req_i = 1
+   ACK_REQ_PHASE2  = 1'b1  // FSM state to assert ack_o = 1, data_in_en = 1 and wait for req_i = 0
 } state;
 
 
 // FSM with single always block for next state, 
 // present state flipflop and output logic 
 always_ff@(posedge dest_clk, posedge dest_reset) begin
- if(dest_reset) begin
+   if(dest_reset) begin
       ack_o <= 0;
       data_in_en <= 0;
       state <= ACK_REQ_PHASE1;
  end
  else begin
   case(state)
-     // Wait for req_iuest data coming from tx_fsm until then do not
-     // enable loading of data in the data register
-     ACK_REQ_PHASE1: begin
-
-
-        // Student to add code here
-
-
-     end
-     // In response to req_i=1 from tx_fsm, generate ack_o = 1 and enable
-     // loading of data in destination register and then wait for req_i = 0
-     ACK_REQ_PHASE2: begin
-
-
-        // Student to add code here
-
-
-     end
-     // In Default state move to IDLE state    
-     default: begin
-        state <= ACK_REQ_PHASE1;
-     end
+      // Wait for req_iuest data coming from tx_fsm until then do not
+      // enable loading of data in the data register
+      ACK_REQ_PHASE1: begin
+         // Student to add code here
+         ack_o <= 0;
+         data_in_en <= 0;
+         state <= ACK_REQ_PHASE1;
+         if (req_i) begin
+            state <= ACK_REQ_PHASE2;
+         end
+         else begin
+            state <= ACK_REQ_PHASE1;
+         end
+      end
+      // In response to req_i=1 from tx_fsm, generate ack_o = 1 and enable
+      // loading of data in destination register and then wait for req_i = 0
+      ACK_REQ_PHASE2: begin
+         // Student to add code here
+         ack_o      <= 1;
+         data_in_en <= 1;
+         if (!req_i) begin
+            state <= ACK_REQ_PHASE1;
+         end
+         else begin
+            state <= ACK_REQ_PHASE2;
+         end
+      end
+      // In Default state move to IDLE state    
+      default: begin
+         state <= ACK_REQ_PHASE1;
+      end
   endcase
  end
 end

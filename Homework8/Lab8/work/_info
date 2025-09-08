@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vflipflop_synchronizer
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1757303495
+!i10b 1
+!s100 ZAX6Wbi5jmM?Q0R1fXJVR3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_j>Ofa]AAZYD;bZaESIn]3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8
+Z4 w1756076699
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/flipflop_synchronizer.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/flipflop_synchronizer.sv
+!i122 0
+L0 1 24
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1757303495.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/flipflop_synchronizer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/flipflop_synchronizer.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vhandshake_synchronizer
+R0
+Z9 !s110 1757303496
+!i10b 1
+!s100 JoIjm6^d?=YhmECE7MDKi2
+R1
+IU[YK7g@_;>5[<dJF>X]dS3
+R2
+S1
+R3
+w1757303441
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer.sv
+!i122 1
+L0 1 81
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer.sv|
+!i113 1
+R7
+R8
+vhandshake_synchronizer_testbench
+R0
+R9
+!i10b 1
+!s100 9PFTTGH2ACem?IRU@NIM93
+R1
+IMITW`6Voz3Y@YeGlfH25o2
+R2
+S1
+R3
+R4
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer_testbench.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer_testbench.sv
+!i122 2
+L0 2 116
+R5
+r1
+!s85 0
+31
+Z10 !s108 1757303496.000000
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/handshake_synchronizer_testbench.sv|
+!i113 1
+R7
+R8
+vreceiver_fsm
+R0
+R9
+!i10b 1
+!s100 [GiI_l`Q]CHC^M[IakGWR2
+R1
+IZhmNKJ@Y@H_AL>1P`Bbgh2
+R2
+S1
+R3
+w1757303002
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/receiver_fsm.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/receiver_fsm.sv
+!i122 3
+L0 2 63
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/receiver_fsm.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/receiver_fsm.sv|
+!i113 1
+R7
+R8
+vsender_fsm
+R0
+R9
+!i10b 1
+!s100 =kV5bm37c9ADAg<?@TUMY2
+R1
+ISNHl>8S8R^m[]dF_I@RcX3
+R2
+S1
+R3
+w1757303087
+8C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/sender_fsm.sv
+FC:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/sender_fsm.sv
+!i122 4
+L0 2 84
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/sender_fsm.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Jaspe/repositories/ECE 111 Lab HW/Homework8/Lab8/sender_fsm.sv|
+!i113 1
+R7
+R8

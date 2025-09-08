@@ -22,3 +22,4 @@ module flipflop_synchronizer
  end
  assign q = (reset == 0) ? r[NUM_OF_STAGES-1] : 0;
 endmodule: flipflop_synchronizer
+

@@ -1,0 +1,6 @@
+
+State Machine - |handshake_synchronizer|sender_fsm:sender_fsm_inst|state
+Name state.IDLE state.REQ_ACK_PHASE2 state.REQ_ACK_PHASE1 
+state.IDLE 0 0 0 
+state.REQ_ACK_PHASE1 1 0 1 
+state.REQ_ACK_PHASE2 1 1 0 

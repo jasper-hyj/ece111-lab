@@ -1,0 +1,124 @@
+|handshake_synchronizer
+start => start.IN1
+ready <= sender_fsm:sender_fsm_inst.ready
+data_in[0] => data_in_reg[0].DATAIN
+data_in[1] => data_in_reg[1].DATAIN
+data_in[2] => data_in_reg[2].DATAIN
+data_in[3] => data_in_reg[3].DATAIN
+data_in[4] => data_in_reg[4].DATAIN
+data_in[5] => data_in_reg[5].DATAIN
+data_in[6] => data_in_reg[6].DATAIN
+data_in[7] => data_in_reg[7].DATAIN
+data_in[8] => data_in_reg[8].DATAIN
+data_in[9] => data_in_reg[9].DATAIN
+data_in[10] => data_in_reg[10].DATAIN
+data_in[11] => data_in_reg[11].DATAIN
+data_in[12] => data_in_reg[12].DATAIN
+data_in[13] => data_in_reg[13].DATAIN
+data_in[14] => data_in_reg[14].DATAIN
+data_in[15] => data_in_reg[15].DATAIN
+data_in[16] => data_in_reg[16].DATAIN
+data_in[17] => data_in_reg[17].DATAIN
+data_in[18] => data_in_reg[18].DATAIN
+data_in[19] => data_in_reg[19].DATAIN
+data_in[20] => data_in_reg[20].DATAIN
+data_in[21] => data_in_reg[21].DATAIN
+data_in[22] => data_in_reg[22].DATAIN
+data_in[23] => data_in_reg[23].DATAIN
+data_in[24] => data_in_reg[24].DATAIN
+data_in[25] => data_in_reg[25].DATAIN
+data_in[26] => data_in_reg[26].DATAIN
+data_in[27] => data_in_reg[27].DATAIN
+data_in[28] => data_in_reg[28].DATAIN
+data_in[29] => data_in_reg[29].DATAIN
+data_in[30] => data_in_reg[30].DATAIN
+data_in[31] => data_in_reg[31].DATAIN
+data_out[0] <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= data_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= data_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= data_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= data_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[8] <= data_out[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[9] <= data_out[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[10] <= data_out[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[11] <= data_out[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[12] <= data_out[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[13] <= data_out[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[14] <= data_out[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[15] <= data_out[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[16] <= data_out[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[17] <= data_out[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[18] <= data_out[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[19] <= data_out[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[20] <= data_out[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[21] <= data_out[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[22] <= data_out[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[23] <= data_out[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[24] <= data_out[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[25] <= data_out[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[26] <= data_out[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[27] <= data_out[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[28] <= data_out[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[29] <= data_out[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[30] <= data_out[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[31] <= data_out[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+src_clk => src_clk.IN2
+dest_clk => dest_clk.IN2
+src_reset => src_reset.IN2
+dest_reset => dest_reset.IN2
+
+
+|handshake_synchronizer|sender_fsm:sender_fsm_inst
+src_clk => data_out_en~reg0.CLK
+src_clk => ready~reg0.CLK
+src_clk => req_o~reg0.CLK
+src_clk => state~1.DATAIN
+src_reset => data_out_en~reg0.ACLR
+src_reset => ready~reg0.ACLR
+src_reset => req_o~reg0.ACLR
+src_reset => state~3.DATAIN
+start => Selector1.IN2
+start => Selector0.IN1
+ready <= ready~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out_en <= data_out_en~reg0.DB_MAX_OUTPUT_PORT_TYPE
+req_o <= req_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ack_i => Selector2.IN1
+ack_i => Selector0.IN2
+ack_i => Selector1.IN1
+
+
+|handshake_synchronizer|receiver_fsm:receiver_fsm_inst
+dest_clk => state.CLK
+dest_clk => data_in_en~reg0.CLK
+dest_clk => ack_o~reg0.CLK
+dest_reset => state.ACLR
+dest_reset => data_in_en~reg0.ACLR
+dest_reset => ack_o~reg0.ACLR
+req_i => state.DATAIN
+ack_o <= ack_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_in_en <= data_in_en~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|handshake_synchronizer|flipflop_synchronizer:ack_2ff_sync_inst
+clock => r[0][0].CLK
+clock => r[1][0].CLK
+reset => r[0][0].ACLR
+reset => r[1][0].ACLR
+reset => q.OUTPUTSELECT
+d[0] => r[0][0].DATAIN
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|handshake_synchronizer|flipflop_synchronizer:req_2ff_sync_inst
+clock => r[0][0].CLK
+clock => r[1][0].CLK
+reset => r[0][0].ACLR
+reset => r[1][0].ACLR
+reset => q.OUTPUTSELECT
+d[0] => r[0][0].DATAIN
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : -6.440
+TNS   : -173.348
+
+Type  : Slow 1100mV 85C Model Setup 'dest_clk'
+Slack : -3.143
+TNS   : -89.566
+
+Type  : Slow 1100mV 85C Model Setup 'src_clk'
+Slack : -1.094
+TNS   : -39.880
+
+Type  : Slow 1100mV 85C Model Hold 'dest_clk'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'src_clk'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : 3.832
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'src_clk'
+Slack : -0.724
+TNS   : -44.531
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'dest_clk'
+Slack : -0.724
+TNS   : -40.078
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : -6.507
+TNS   : -177.433
+
+Type  : Slow 1100mV 0C Model Setup 'dest_clk'
+Slack : -2.802
+TNS   : -79.426
+
+Type  : Slow 1100mV 0C Model Setup 'src_clk'
+Slack : -0.936
+TNS   : -33.703
+
+Type  : Slow 1100mV 0C Model Hold 'src_clk'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'dest_clk'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : 3.863
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'src_clk'
+Slack : -0.724
+TNS   : -44.637
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'dest_clk'
+Slack : -0.724
+TNS   : -40.724
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : -2.450
+TNS   : -60.747
+
+Type  : Fast 1100mV 85C Model Setup 'dest_clk'
+Slack : -2.187
+TNS   : -55.590
+
+Type  : Fast 1100mV 85C Model Setup 'src_clk'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'src_clk'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'dest_clk'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : 1.888
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'dest_clk'
+Slack : -0.085
+TNS   : -3.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'src_clk'
+Slack : -0.082
+TNS   : -3.152
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : -2.290
+TNS   : -57.945
+
+Type  : Fast 1100mV 0C Model Setup 'dest_clk'
+Slack : -1.661
+TNS   : -41.321
+
+Type  : Fast 1100mV 0C Model Setup 'src_clk'
+Slack : 0.217
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'src_clk'
+Slack : 0.121
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'dest_clk'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : 1.849
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'src_clk'
+Slack : -0.083
+TNS   : -3.214
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'dest_clk'
+Slack : -0.083
+TNS   : -2.968
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sender_fsm:sender_fsm_inst|data_out_en'
+Slack : 0.416
+TNS   : 0.000
+
+------------------------------------------------------------
