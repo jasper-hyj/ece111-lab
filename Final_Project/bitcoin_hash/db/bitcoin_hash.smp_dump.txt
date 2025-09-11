@@ -1,0 +1,15 @@
+
+State Machine - |bitcoin_hash|state
+Name state.WRITE state.WRITE_PREP state.P3_RUN state.P3_PREP state.P2_RUN state.P2_PREP state.NONCE_PREP state.P1_RUN state.P1_PREP state.READ state.WAIT state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 
+state.WAIT 0 0 0 0 0 0 0 0 0 0 1 1 
+state.READ 0 0 0 0 0 0 0 0 0 1 0 1 
+state.P1_PREP 0 0 0 0 0 0 0 0 1 0 0 1 
+state.P1_RUN 0 0 0 0 0 0 0 1 0 0 0 1 
+state.NONCE_PREP 0 0 0 0 0 0 1 0 0 0 0 1 
+state.P2_PREP 0 0 0 0 0 1 0 0 0 0 0 1 
+state.P2_RUN 0 0 0 0 1 0 0 0 0 0 0 1 
+state.P3_PREP 0 0 0 1 0 0 0 0 0 0 0 1 
+state.P3_RUN 0 0 1 0 0 0 0 0 0 0 0 1 
+state.WRITE_PREP 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WRITE 1 0 0 0 0 0 0 0 0 0 0 1 

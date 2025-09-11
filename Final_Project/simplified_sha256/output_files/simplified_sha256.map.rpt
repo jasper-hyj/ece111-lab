@@ -1,5 +1,5 @@
 Analysis & Synthesis report for simplified_sha256
-Fri Sep 05 01:45:47 2025
+Wed Sep 10 20:20:52 2025
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -47,7 +47,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +-----------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status       ; Successful - Fri Sep 05 01:45:47 2025       ;
+; Analysis & Synthesis Status       ; Successful - Wed Sep 10 20:20:52 2025       ;
 ; Quartus Prime Version             ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                     ; simplified_sha256                           ;
 ; Top-level Entity Name             ; simplified_sha256                           ;
@@ -181,13 +181,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                      ; Library ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------------+---------+
-; simplified_sha256.sv             ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv ;         ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                              ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                    ; Library ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------+---------+
+; simplified_sha256.sv             ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv ;         ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -369,21 +369,21 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Sep 05 01:45:39 2025
+    Info: Processing started: Wed Sep 10 20:20:44 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off simplified_sha256 -c simplified_sha256
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Warning (12125): Using design file simplified_sha256.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: simplified_sha256 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv Line: 1
-Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(38): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv Line: 38
+    Info (12023): Found entity 1: simplified_sha256 File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv Line: 1
+Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(38): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv Line: 38
 Info (12127): Elaborating entity "simplified_sha256" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(50): truncated value with size 16 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv Line: 50
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(140): truncated value with size 32 to match size of target (16) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv Line: 140
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(147): truncated value with size 32 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv Line: 147
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(148): truncated value with size 32 to match size of target (16) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv Line: 148
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(211): truncated value with size 32 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv Line: 211
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(224): truncated value with size 32 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv Line: 224
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(249): truncated value with size 32 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256/simplified_sha256.sv Line: 249
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(50): truncated value with size 16 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv Line: 50
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(140): truncated value with size 32 to match size of target (16) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv Line: 140
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(147): truncated value with size 32 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv Line: 147
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(148): truncated value with size 32 to match size of target (16) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv Line: 148
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(211): truncated value with size 32 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv Line: 211
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(224): truncated value with size 32 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv Line: 224
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(249): truncated value with size 32 to match size of target (8) File: C:/Users/Jaspe/repositories/ECE 111 Lab HW/Final_Project/simplified_sha256/simplified_sha256.sv Line: 249
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 3 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -393,9 +393,9 @@ Info (21057): Implemented 2865 device resources after synthesis - the final reso
     Info (21059): Implemented 51 output pins
     Info (21061): Implemented 2747 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 4940 megabytes
-    Info: Processing ended: Fri Sep 05 01:45:47 2025
+    Info: Peak virtual memory: 4945 megabytes
+    Info: Processing ended: Wed Sep 10 20:20:52 2025
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Total CPU time (on all processors): 00:00:14
 
 
